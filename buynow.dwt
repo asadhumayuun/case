@@ -1,0 +1,420 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml" fb="http://ogp.me/ns/fb#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="canonical" href="http://www.justin.pk/{$define_url}.html" />
+<meta name="Keywords" content="{$keywords}" />
+<!-- Schema.org markup for Google+ & Linkedin -->
+<meta itemprop="name" content="{$goods.goods_style_name}">
+<meta itemprop="description" content="{$description}">
+<meta itemprop="image" content="http://www.justin.pk/{$pictures.0.img_url}">
+<!-- Open Graph data -->
+<meta property="og:type" content="product"/>
+<meta property="og:title" content="{$goods.goods_style_name}"/>
+<meta property="og:description" content="{$description}"/>
+<meta property="og:image" content="http://www.justin.pk/{$pictures.0.img_url}"/>
+<meta property="og:url" content="{$ecs_url}"/>
+<meta property="og:site_name" content="Xiaomi Store Pakistan"/>
+<meta property="fb:app_id" content="1563914676986739"/>
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="always">
+<meta name="Description" content="{$goods_description}" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>{$page_title}</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="themes/tronsmart/html.css?ver=1.1" rel="stylesheet" type="text/css" />
+<link href="themes/tronsmart/layout.css?ver=1.1" rel="stylesheet" type="text/css" />
+<link href="css/tronsmart_alerts.css" rel="stylesheet" type="text/css" />
+<link href="themes/tronsmart/css/image-popup.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.9.1.min.js" ></script>
+{* Contains Script Diles *}
+{insert_scripts files='common.js,tronsmart_alerts.js,lazyload.transpiled.min.js,image-popup.js'}
+<script type="text/javascript">
+function $id(element) {
+  return document.getElementById(element);
+}
+//Cut the screen - is the button, _v is the content platform, _h is the content library
+function reg(str){
+  var bt=$id(str+"_b").getElementsByTagName("h2");
+  for(var i=0;i<bt.length;i++){
+    bt[i].subj=str;
+    bt[i].pai=i;
+    bt[i].style.cursor="pointer";
+    bt[i].onclick=function(){
+      $id(this.subj+"_v").innerHTML=$id(this.subj+"_h").getElementsByTagName("blockquote")[this.pai].innerHTML;
+      for(var j=0;j<$id(this.subj+"_b").getElementsByTagName("h2").length;j++){
+        var _bt=$id(this.subj+"_b").getElementsByTagName("h2")[j];
+        var ison=j==this.pai;
+        _bt.className=(ison?"":"h2bg");
+      }
+    }
+  }
+  $id(str+"_h").className="none";
+  $id(str+"_v").innerHTML=$id(str+"_h").getElementsByTagName("blockquote")[0].innerHTML;
+}
+
+</script>
+</head>
+<body>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->{insert_scripts files='magiczoomplus.js,easydialog.min.js,xiaomi_goods.js'}
+<!-- #BeginLibraryItem "/library/ur_here_goods_layout_buy.lbi" --><!-- #EndLibraryItem --> 
+<div class="goods-detail">
+  <div class="goods-detail-info  clearfix J_goodsDetail"> 
+  	<div class="container">
+    	<div class="row">
+          <div class="span13  J_mi_goodsPic_block goods-detail-left-info">
+          <!-- Image --> 
+          <!-- #BeginLibraryItem "/library/goods_gallery.lbi" --><!-- #EndLibraryItem -->
+          </div>
+          <div class="span7 goods-info-rightbox">
+          <form action="javascript:addToCart({$goods.goods_id})" method="post" name="ECS_FORMBUY" id="ECS_FORMBUY" >
+            
+            <!-- Prodcut -->
+            <div class="goods-info-box" id="item-info">
+              <dl class="loaded">
+              	<dt class="goods-info-head">
+                	<dl>
+                    	<dt class="goods-name">{$goods.goods_style_name}
+                        <!-- {if $goods.goods_number neq "" and $cfg.show_goodsnumber} Inventory--> 
+                              <!-- {if $goods.goods_number eq 0} -->
+                              <dt class="goods-info-head-tip hide J_headTip" style="display: block;">
+                                  <ul>
+                                       <li class="decrease"> <i>{$lang.stock_up}</i> </li>
+                                  </ul>
+                              <!-- {/if} --> 
+                              <!-- {/if} -->
+                        </dt>
+                        <dd class="goods-phone-type"><p>{$goods.goods_brief}</p></dd>
+                        <dd class="goods-info-head-price clearfix" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+
+                              <!--{if $goods.is_promote and $goods.gmt_end_time } Promotion--> 
+                              {insert_scripts files='lefttime.js'} 
+                              <b class="J_mi_goodsPrice" id="ECS_SHOPPRICE" itemprop="price">{$goods.promote_price}</b>
+                              <del><span class="J_mi_marketPrice">{$goods.shop_price_formated}</span></del>
+                              <div class="sk_cd_main J_sk_cd_main" id="timedown">
+                              	  <div class="cd clearfix" id="leftTime">
+                                </div> 
+                              </div>
+                              <!--{else}--> 
+                              <span class="unit"> <b class="nala_price red" id="ECS_SHOPPRICE" itemprop="price">{$goods.shop_price_formated} </b> </span>  
+                              <!--{/if}--> 
+                                
+                       	</dd>
+                        <dd>
+                        	
+                            <ul>
+                              <!-- {if $goods.is_shipping} For free shipping items are displayed-->
+                              <dd class="goods-info-head-tip">
+                                 <ul>
+                                    <li class="others"> <i>{$lang.goods_free_shipping}</i> </li>
+                                 </ul>
+                               </dd>
+                              <!-- {/if} --> 
+                              
+                              <!-- {if $promotion} -->
+                              <li style="color:#666;"> 
+                                <!-- {foreach from=$promotion item=item key=key} Promotions--> 
+                                {$lang.activity} 
+                                <!-- {if $item.type eq "snatch"} --> 
+                                <a href="snatch.php" title="{$lang.snatch}" style="font-weight:100; color:#f70; text-decoration:none;">[{$lang.snatch}]</a> 
+                                <!-- {elseif $item.type eq "group_buy"} --> 
+                                <a href="group_buy.php" title="{$lang.group_buy}" style="font-weight:100; color:#f70; text-decoration:none;">[{$lang.group_buy}]</a> 
+                                <!-- {elseif $item.type eq "auction"} --> 
+                                <a href="auction.php" title="{$lang.auction}" style="font-weight:100; color:#f70; text-decoration:none;">[{$lang.auction}]</a> 
+                                <!-- {elseif $item.type eq "favourable"} --> 
+                                <a href="activity.php" title="{$lang.favourable}" style="font-weight:100; color:#f70; text-decoration:none;">[{$lang.favourable}]</a> 
+                                <!-- {/if} --> 
+                                <a href="{$item.url}" title="{$lang.$item.type} {$item.act_name}{$item.time}" style="font-weight:100; color:#f70;">{$item.act_name}</a><br />
+                                <!-- {/foreach} --> 
+                              </li>
+                              <!-- {/if} -->
+                            </ul>
+                            
+                        </dd>
+                        <dd class="goods-info-choose">
+                        	
+                                                      
+                            <div id="choose" class="spec_list_box">
+                              <ul>
+                              <!-- {* Start looping all optional properties *} --> 
+                              <!-- {foreach from=$specification item=spec key=spec_key} --> 
+                              <!-- {if $spec.attr_type eq 1} --> 
+                                  <!-- {if $spec.is_show_img eq 1} -->
+                                  <li class="GeneralAttrImg">
+                                      <div class="dt">{$spec.name}</div>
+                                      <div class="dd"> 
+                                          <!-- {foreach from=$spec.values item=value key=key} -->
+                                          <div class="item{if $key eq 0} selected{/if}">
+                                              <b></b>
+                                              <a {if $value.product_number eq 0}class="disable-attr-val"{/if} href="#none" title="{if $value.product_number eq 0}{$value.label} - Out of stock{else}{$value.label}{/if}" rel="zoom-id: Zoomer" rev="{$value.img_original}"><img src="{$value.thumb_url}" width="30" height="30" />{if $value.product_number eq 0}<b class="disable-attr"></b>{/if} <span>{$value.label}</span></a>
+                                              <input id="spec_value_{$value.id}" style="display:none;" type="radio" name="spec_{$spec_key}" value="{$value.id}" {if $key eq 0}checked{/if} />
+                                          </div>
+                                          <!-- {/foreach} -->
+                                      </div>
+                                  </li>
+                                  <!-- {else} -->
+                                  <li>
+                                      <div class="dt">{$spec.name}:</div>
+                                      <div class="dd"> 
+                                          <!-- {foreach from=$spec.values item=value key=key} -->
+                                          <div class="item{if $key eq 0} selected{/if}">
+                                              <b></b>
+                                              <a href="#" onClick="return false;" title="{$value.label}">{$value.label}</a>
+                                              <input id="spec_value_{$value.id}" style="display:none;" type="radio" name="spec_{$spec_key}" value="{$value.id}" {if $key eq 0}checked{/if} />
+                                          </div>
+                                          <!-- {/foreach} --> 
+                                      </div>
+                                  </li>
+                                  <!-- {/if} -->
+                              <!-- {else} -->
+                                  <li>
+                                      <div class="dt">{$spec.name}:</div>
+                                      <div class="dd">
+                                          <!-- {foreach from=$spec.values item=value key=key} -->
+                                          <div class="check_item">
+                                              <label for="spec_value_{$value.id}">
+                                                  <input type="checkbox" name="spec_{$spec_key}" value="{$value.id}" id="spec_value_{$value.id}" onclick="changePrice()" />
+                                                  {$value.label} [{if $value.price gt 0}{$lang.plus}{elseif $value.price lt 0}{$lang.minus}{/if} {$value.format_price|abs}]
+                                              </label>
+                                          </div>
+                                          <!-- {/foreach} -->
+                                          <input type="hidden" name="spec_list" value="{$key}" />
+                                      </div>
+                                  </li>
+                              <!-- {/if} -->
+                              <!-- {/foreach} --> 
+                              <!-- {* End Loop Optional Attribute *} -->
+                              </ul>
+                          </div>
+                          <script>
+                          $(".spec_list_box .item a").click(function(){
+                              $(this).parents(".dd").find(".item").removeClass("selected");
+                              $(this).parent().addClass("selected");
+                              $(this).parents(".dd").find("input:radio").prop("checked",false);
+                              $(this).parent().find("input:radio").prop("checked",true);
+                              changePrice();
+                          })
+                          </script>
+                          <ul class="sku">
+                            <li class="skunum_li clearfix"> 
+                              <div class="ghd">QTY</div>
+                              <div class="quantity-info-main" id="skunum"> 
+                                <span class="p-quantity-modified"><i class="p-quantity-decrease"></i>
+                                <input class="p-quantity-input" id="number" name="number" type="text" min="1" value="1" onchange="countNum(0)"><i class="p-quantity-increase"></i>
+                                </span>
+                              </div>
+                              <dd class="goods-qty-error-minus" id="goods-qty-error-minus" style="display:none"><i class="fa fa-info-circle"></i><span id="goodsqtyerrorm"></span></dd>
+                            </li>
+                          </ul>
+                        </dd>
+                        <!--Buy-->
+                        <!-- {if $goods.goods_number eq 0} -->
+                        <dd class="goods-info-head-cart">
+                          <a href="javascript:addToCart({$goods.goods_id})" class="btn  btn-outofstock goods-add-cart-btn" id="buy_btn">NOTIFY (Out of Stock)</a>
+                        </dd>
+                        <!-- {else} -->
+                        <dd class="goods-info-head-cart">
+                          <a href="javascript:addToCart({$goods.goods_id})" class="btn  btn-primary goods-add-cart-btn" id="buy_btn addToCartFb"><i></i> Add to cart</a>
+                        </dd>
+                        <!-- {/if} -->
+                        <dd class="goods-info-head-userfaq clearfix">
+                            <div class="pro-policy">
+                                <i class="fa fa-check-square-o"></i>
+                                <span class="J_tips ">7 day replacement applicable</span>
+                            </div>
+                        </dd>
+                                     <!--{if $volume_price_list } -->
+                                    <div class="left-info-main-prodcut">
+                                            <span class="left-icon-left-info"><i class="fa fa-tags whole-sale-icon"></i> Bulk Buy Discounts</span>
+                                        <div class="more_save_tips" style="display: none;">
+                                            <span class="arrow_a"><i><i></i></i></span>
+                                            <h3>Bulk Buy Discounts</h3> Order 2 or more and enjoy the savings.
+                                            <table cellspacing="0" cellpadding="0" width="100%" border="1">
+                                                <tbody class="more_save_tbody">
+                                                    <tr>
+                                                        <th>Price (unit)</th>
+                                                        <!-- {foreach from=$volume_price_list item=price_list key=price_key} -->
+                                                        <th>{$price_list.number}</th>
+                                                        <!-- {/foreach} -->
+                                                    </tr>
+                                                    <tr class="has">
+                                                        <td>Price <span>Rs</span></td>
+                                                        <!-- {foreach from=$volume_price_list item=price_list key=price_key} -->
+                                                        <td>{$price_list.format_price}</td>
+                                                        <!-- {/foreach} -->
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <!--{/if}-->
+                  <script type="text/javascript">
+					$(function(){
+					$(".goods-detail .left-info-main-prodcut").mouseover(function(){
+					$(".goods-detail .more_save_tips").stop().slideDown(); 
+					})
+					.mouseout(function(){
+					$(".goods-detail .more_save_tips").hide(); 
+					});
+					})
+				  </script> 
+                    </dl>
+                </dt>
+                <!-- Buy -->
+              </dl>
+            </div>
+          </form>
+          <!-- #BeginLibraryItem "/library/history.lbi" --><!-- #EndLibraryItem --> 
+          </div>
+        </div>
+  	</div>
+  </div>
+  <div class="container" style=" margin-bottom:0px;">
+  <!-- #BeginLibraryItem "/library/goods_fittings.lbi" --><!-- #EndLibraryItem --> 
+  </div>
+  <!-- {if $related_goods} -->
+  <!-- {else} -->
+  <div class="full-screen-border"></div>
+  <!-- {/if} -->
+
+      <!-- #BeginLibraryItem "/library/goods_related_buynow.lbi" --><!-- #EndLibraryItem -->
+    </div>
+
+<!--Follow the navigation-->
+<div class="goods-sub-bar" id="goodsSubBar">
+	<div class="container">
+    	<ul class="detail-list">
+          <li> <a class="J_scrollHref" rel="nofollow" href="javascript:void(0);">OVERVIEW</a> </li>
+          <li> <a class="J_scrollHref" rel="nofollow" href="javascript:void(0);">TECH SPECS</a> </li>
+          <li><a class="J_scrollHref" href="javascript:void(0);" name="pjxqitem" rel="nofollow">REVIEWS(<em>{$goods.comments_number}</em>)</a></li>
+        </ul>
+        <dl class="goods-sub-bar-info clearfix">
+        	<dt><img src="{if $picture.thumb_url}{$picture.thumb_url}{else}{$picture.img_url}{/if}" alt="{$goods.goods_name}" /></dt>
+            <dd>
+            	<strong>{$goods.goods_style_name}</strong>
+                <p><em>{$goods.shop_price_formated}</em></p>
+            </dd>
+        </dl>
+        <a href="javascript:addToCart({$goods.goods_id})" class="btn btn-primary goods-add-cart-btn"><i class="add-to-cart-icon"></i> Add to Cart</a>
+    </div>
+</div>
+
+
+<div class="add_ok" id="cart_show">
+    <div class="tip">
+        <i class="iconfont"> </i>
+        <h3>Product has been added to cart!</h3>
+        <span class="name">{$goods.goods_name}</span>
+    </div>
+    <div class="go">
+        <a href="javascript:easyDialog.close();" class="back">Continue Shopping</a>
+        <a href="cart/" class="btn">Checkout</a>
+    </div>
+</div>
+
+
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+</body>
+<script type="text/javascript">
+new LazyLoad();
+effect : "fadeIn"
+</script>
+<script type="text/javascript">
+$( '#addToCartFb' ).click(function() {
+fbq('track', 'AddToCart', {
+content_ids: ['{$goods.goods_sn}'],
+content_type: 'product',
+value: {$goods.shop_price},
+currency: 'PKR'
+});
+});
+</script>
+<script>
+fbq('track', 'ViewContent', {
+value: {$goods.shop_price},
+currency: 'PKR'
+});
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Product",
+  "name": "{$goods.goods_style_name}",
+  "image": "http://www.justin.pk/{$pictures.0.img_url}",
+  "description": "{$goods_description}",
+  "productID": "{$goods.goods_sn}",
+  "brand": {
+    "@type": "Thing",
+    "name": "Xiaomi"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "PKR",
+    "price": "{$goods.shop_price}",
+    "itemCondition": "http://schema.org/NewCondition",
+    "availability": "<!-- {if $goods.goods_number eq 0} -->http://schema.org/OutOfStock<!-- {else} -->http://schema.org/InStock<!-- {/if} -->",
+    "seller": {
+      "@type": "Organization",
+      "name": "Xiaomi Store Pakistan"
+    }
+  }
+}
+</script>
+<script type="text/javascript">
+var goods_id = {$goods_id};
+var goodsattr_style = {$cfg.goodsattr_style|default:1};
+var gmt_end_time = {$promote_end_time|default:0};
+{foreach from=$lang.goods_js item=item key=key}
+var {$key} = "{$item}";
+{/foreach}
+var goodsId = {$goods_id};
+var now_time = {$now_time};
+
+<!-- {literal} -->
+onload = function(){
+  changePrice();
+  fixpng();
+  try { onload_leftTime(); }
+  catch (e) {}
+}
+
+/**
+ * Click the optional property or change the quantity to modify the function of the product Price
+ */
+function changePrice()
+{
+  var attr = getSelectedAttributes(document.forms['ECS_FORMBUY']);
+
+  var qty = document.forms['ECS_FORMBUY'].elements['number'].value;
+
+  Ajax.call('goods.php', 'act=price&id=' + goodsId + '&attr=' + attr + '&number=' + qty, changePriceResponse, 'GET', 'JSON');
+}
+
+/**
+ * Receive the returned information
+ */
+function changePriceResponse(res)
+{
+  if (res.err_msg.length > 0)
+  {
+    alert(res.err_msg);
+  }
+  else
+  {
+    
+    if (document.getElementById('ECS_SHOPPRICE'))
+      document.getElementById('ECS_SHOPPRICE').innerHTML = res.result;
+	 if (document.getElementById('ECS_SHOPPRICE_TOP'))
+      document.getElementById('ECS_SHOPPRICE_TOP').innerHTML = res.result;
+    if (document.getElementById('ECS_GOODS_AMOUNT'))
+      document.getElementById('ECS_GOODS_AMOUNT').innerHTML = res.result;
+	
+  }
+}
+<!-- {/literal} -->
+</script>
+</html>

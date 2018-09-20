@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<meta property="fb:app_id" content="161726554526294" />
+<meta property="og:type"   content="website" /> 
+<meta property="og:url"    content="http://www.justin.pk/about-us" /> 
+<meta property="og:title"  content="About Tronsmart - Tronsmart Pakistan" />
+<meta property="og:description" content="Tronsmart was founded on 2013 and is based in the heart of Shenzhen, the silicon valley of China, and among the most technologically innovative cities in the world."/>
+<meta property="og:image"  content="http://www.justin.pk/images/about-og-image.jpg" />
+<meta property="og:site_name" content="Tronsmart Pakistan"/>
+<title>About Tronsmart - Tronsmart Pakistan</title>
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+<meta name="Description" content="Tronsmart was founded on 2013 and is based in the heart of Shenzhen, the silicon valley of China, and among the most technologically innovative cities in the world." /><link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
+<link href="common.css" rel="stylesheet" type="text/css" />
+<link href="themes/tronsmart/about-us.css" rel="stylesheet" type="text/css" />
+{* 包含脚本文件 *}
+{insert_scripts files='common.js'}
+</head>
+<body>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+<!-- #BeginLibraryItem "/library/ur_here.lbi" --><!-- #EndLibraryItem -->
+
+<section class="abtus-banner"> </section>
+<nav class="abtus-menu" id="tronsmart-story">
+    <a href="javascript:void(0);" class="to-introduction now">Story</a>
+    <a href="javascript:void(0);" class="to-culture">Technology</a>
+    <a href="javascript:void(0);" class="to-contact">Contact</a>
+</nav>
+<nav class="abtus-menu2">
+    <a href="javascript:void(0);" class="to-introduction now">Story</a>
+    <a href="javascript:void(0);" class="to-culture">Technology</a>
+    <a href="javascript:void(0);" class="to-contact">Contact</a>
+</nav>
+<section class="abtus-introduction clearfix">
+    <h2>The Tronsmart Story</h2>
+    <div class="abtus-story"> </div>
+    <p class="tronsmart-story">Tronsmart believes in making lives easier of the consumer and it is reflected in all our cutting-edge line of products. Our dedicated R&amp;D team along with our highly skilled engineers innovate at every stage in developing each of our products.
+        Tronsmart products comprise of Mobile Accessories, Audio Products, Connectors, Power Banks, Power Deliveries, Cables, USB Type-C Accessories and a whole lot of products that are finely tuned &amp; crafted before putting in the hands of our customers.
+        Tronsmart is a globally recognized brand and all our products are known for producing the best quality and delivering high performance.</p>
+    <img class="abtus-map1" src="images/about_map.jpg" alt="">
+    <ul>
+        <li>We gather exceptional talent from all
+            <br>over the world with various backgrounds,
+            <br>beliefs, and perspectives, but we all
+            <br>share one common dream: change
+            <br>things for the better and leave a mark on
+            <br>the world.</li>
+        <li>We pursue the highest standards
+            <br>professionally, personally, and ethically.
+            <br>Empowered by a bold mindset, we create
+            <br>products that transcend geography,
+            <br>customs and cultures.</li>
+        <li>We always strive for improvement and
+            <br>aim to provide the best value to our
+            <br>users. Remaining introspective, we look
+            <br>to improve ourselves before demanding
+            <br>or criticizing others.</li>
+    </ul>
+    <div>
+        <div class="about-img-gleam"></div>
+    </div>
+</section>
+<section class="abtus-culture" id="tronsmart-technology">
+    <h2>
+        <span>Technology</span>
+    </h2>
+    <ul class="abtus-culture-ul1 clearfix">
+        <li>
+            <h4>Quick Charge 3.0</h4>
+            <img src="images/about_qc.jpg" alt="">
+            <h5>What is Qualcomm Quick Charge 3.0?</h5>
+            <p>Quick charge employs intelligent negotiation for optimum voltage (INOV), an algorithm which allows your portable device to determine what power level to request at any point in time, enabling optimum power transfer while maximizing efficiency.</p>
+        </li>
+        <li>
+            <h4>VoltIQ™</h4>
+            <img src="images/about_voltiq.jpg" alt="">
+            <h5>What is VoltIQ™?</h5>
+            <p>The VoltIQ technology, as an ideal solution, fixes it once for all. It automatically adjusts amperage and wattage to the maximum ratio required by the device, so that more current-hungry devices are not starved and less current-hungry devices
+                are not over-allocated resources.</p>
+        </li>
+    </ul>
+    <article class="abtus-culture-article clearfix">
+        <h4>Our Story
+            <img src="images/about_icon3.png" alt=""> </h4>
+        <ul>
+            <li class="li01">
+                <div>
+                    <h5>April 18, 2017</h5>
+                    <p>Tronsmart released the world's first Active Noise Canceling Lightning headphones with charging port at the Global Sources Electronics Fair.</p>
+                </div>
+            </li>
+            <li class="li02">
+                <div>
+                    <h5>Sep 13, 2016</h5>
+                    <p>Tronsmart Presto power bank had been recommended by Forbes</p>
+                </div>
+            </li>
+            <li class="li03">
+                <div>
+                    <h5>July 2016</h5>
+                    <p>Tronsmart Chargers earned distinction as, "The best multiport USB A and USB C wall chargers" from the world's famous tech webstie ZDnet</p>
+                </div>
+            </li>
+            <li class="li04">
+                <div>
+                    <h5>Jan 7, 2016</h5>
+                    <p>Tronsmart WCIT 1 port wall charger had been chosen as the "Hero Product of 2016" by Qualcomm</p>
+                </div>
+            </li>
+            <li class="li05">
+                <div>
+                    <h5>Jan 4, 2016</h5>
+                    <p>The Tronsmart Titan was chosen as an exhibition product by Qualcomm during the Consumer Electronics Show (CES), the largest electronics expo in the world.</p>
+                </div>
+            </li>
+            <li class="li06">
+                <div>
+                    <h5>Oct 2014</h5>
+                    <p>The Tronsmart AW80 was ranked as the best performing TV Box among all manufacturers by Android Authority</p>
+                </div>
+            </li>
+        </ul>
+    </article>
+</section>
+<section class="abtus-contact" id="contact-tronsmart">
+    <div class="left">
+        <img src="images/hello.png" alt="">
+        <span>
+            <h4>Contact Us</h4>
+            <p>Company: Tronsmart Pakistan Co., Ltd.
+                <br>Address: Office # 313, 3rd Floor Lord Trade Center, F-11 Markaz</p>
+        </span>
+    </div>
+    <img class="abtus-contact-map" src="images/map2.jpg" alt="">
+    <div class="abtus-contact-list clearfix">
+        <ul>
+            <li>
+                <h5>Sales Team</h5>
+                <p class="name">Kauser Khan</p>
+                <span>
+                    <a href="mailto:sales@tronsmart.pk">sales@tronsmart.pk</a>
+                </span>
+            </li>
+            <li>
+                <h5>Wholesale Business</h5>
+                <p class="name">Muhammad Usman</p>
+                <span>
+                    <a href="mailto:wholesale@tronsmart.pk">wholesale@tronsmart.pk</a>
+                </span>
+            </li>
+            <li>
+                <h5>Business Development Cooperation</h5>
+                <p class="name">Muhammad Eisa</p>
+                <span>
+                    <a href="mailto:marketing@tronsmart.pk">marketing@tronsmart.pk</a>
+                </span>
+            </li>
+            <li>
+                <h5>Warranty Claim</h5>
+                <p class="name">Kauser Khan</p>
+                <span>
+                    <a href="mailto:service@tronsmart.pk">service@tronsmart.pk</a>
+                </span>
+            </li>
+            <li>
+                <h5>Complaints</h5>
+                <p class="name">Yousaf</p>
+                <span>
+                    <a href="mailto:complaints@tronsmart.pk">complaints@tronsmart.pk</a>
+                </span>
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="abtus-joinus"> </section>
+
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+<script type="text/javascript">
+	//Scroll tab
+	$(function() {
+
+	    //Detail page page scroll tab top fixed
+	    $(window).scroll(function() {
+	        if ($(window).scrollTop() > $(".abtus-menu").offset().top) {
+	            $(".abtus-menu2").addClass("show");
+	            autoTab();
+	        } else {
+	            $(".abtus-menu2").removeClass("show");
+	        }
+	    });
+
+	    //Details page tab click
+	    $(".abtus-menu2,.abtus-menu").find("a").click(function() {
+	        var n = $(".abtus-menu2,.abtus-menu").find("a").index($(this));
+	        n = n % 3;
+	        switch (n) {
+	            case 0:
+	                $("html,body").animate({
+	                    scrollTop: $(".abtus-menu").offset().top - 0
+	                }, 200)
+	                break;
+	            case 1:
+	                $("html,body").animate({
+	                    scrollTop: $(".abtus-culture").offset().top - 70
+	                }, 200)
+	                break;
+	            case 2:
+	                $("html,body").animate({
+	                    scrollTop: $(".abtus-contact").offset().top - 70
+	                }, 200)
+	                break;
+	        }
+	    });
+	});
+
+
+	function autoTab() { //Scroll Auto Switch tab
+	    var tb1 = $(".abtus-menu a").eq(0);
+	    var tb2 = $(".abtus-menu a").eq(1);
+	    var tb3 = $(".abtus-menu a").eq(2);
+	    var tb1clone = $(".abtus-menu2 a").eq(0);
+	    var tb2clone = $(".abtus-menu2 a").eq(1);
+	    var tb3clone = $(".abtus-menu2 a").eq(2);
+	    var goodsDetail = $(".abtus-menu");
+	    var goodsParam = $(".abtus-culture");
+	    var goodsComment = $(".abtus-contact");
+	    if ($(window).scrollTop() + 80 > goodsComment.offset().top) {
+	        if (!tb3.hasClass("now")) {
+	            tb3.addClass("now").siblings().removeClass("now");
+	            tb3clone.addClass("now").siblings().removeClass("now");
+	        }
+	    } else if ($(window).scrollTop() + 80 > goodsParam.offset().top) {
+	        if (!tb2.hasClass("now")) {
+	            tb2.addClass("now").siblings().removeClass("now");
+	            tb2clone.addClass("now").siblings().removeClass("now");
+	        }
+	    } else if (!tb1.hasClass("now")) {
+	        tb1.addClass("now").siblings().removeClass("now");
+	        tb1clone.addClass("now").siblings().removeClass("now");
+	    }
+	}
+
+	$(function() {
+
+
+	});
+</script>
+<!--Start of Live Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/57b40ed947be0447265bc25b/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Live Script-->
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="{$keywords}" />
+<meta name="Description" content="{$description}" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>{$page_title}</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
+<link href="category.css" rel="stylesheet" type="text/css" />
+<link href="css/brand.css" rel="stylesheet" type="text/css" />
+<link href="css/tronsmart_alerts.css" rel="stylesheet" type="text/css" />
+{* 包含脚本文件 *}
+{insert_scripts files='jquery-1.9.1.min.js,jquery.json.js'}
+{insert_scripts files='common.js,global.js,compare.js,tronsmart_alerts.js'}
+</head>
+<body>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+<!-- #BeginLibraryItem "/library/ur_here.lbi" --><!-- #EndLibraryItem -->
+<div class="home-hero-container container">
+    <div class="home-hero">
+        <div class="home-hero-slider">
+            <div class="ui-wrapper" style="max-width: 100%;">
+                <div class="ui-viewport" style="width: 100%; overflow: hidden; position: relative; height: 460px;">
+                    <div id="J_homeSlider" class="xm-slider" data-stat-title="Focus Map Rotation" style="width: auto; position: relative;">
+                        <div class="slide loaded" data-id="3" style="float: none; list-style: none; position: absolute; width: 1226px; z-index: 50; display: block;">
+                        </div>
+                    </div>
+                </div>
+                <div class="ui-controls ui-has-pager ui-has-controls-direction" style="display: none;">
+                    <div class="ui-pager ui-default-pager">
+                        <div class="ui-pager-item"><a href="" data-slide-index="0" class="ui-pager-link active">1</a></div>
+                    </div>
+                    <div class="ui-controls-direction"><a class="ui-prev disabled" href="">Previous</a><a class="ui-next disabled" href="">Next</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-hero-sub row">
+            <div class="span20">
+            <!-- {if $brand.brand_name eq "Nillkin"} -->
+                <ul class="home-promo-list clearfix">
+                    <li class="first">
+                        <a rel="nofollow" href="brand/nillkin-c159/"> <img alt="" src="images/brands-images/nillkin/1.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="brand/nillkin-c162/"> <img alt="" src="images/brands-images/nillkin/2.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="brand/nillkin-c157/"> <img alt="" src="images/brands-images/nillkin/3.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="brand/nillkin-c165/"> <img alt="" src="images/brands-images/nillkin/4.jpg"></a>
+
+                    </li>
+                </ul>
+                <!-- {elseif $brand.brand_name eq "iPaky"} -->
+                <ul class="home-promo-list clearfix">
+                    <li class="first">
+                        <a rel="nofollow" href="brand/ipaky-c165/"> <img alt="" src="images/brands-images/ipaky/1.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="brand/ipaky-c157/"> <img alt="" src="images/brands-images/ipaky/2.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="brand/ipaky-c162/"> <img alt="" src="images/brands-images/ipaky/3.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="brand/ipaky-c164/"> <img alt="" src="images/brands-images/ipaky/4.jpg"></a>
+
+                    </li>
+                </ul>
+                <!-- {elseif $brand.brand_name eq "MOFi"} -->
+                <ul class="home-promo-list clearfix">
+                    <li class="first">
+                        <a rel="nofollow" href="brand/mofi-c159/"> <img alt="" src="images/brands-images/mofi/1.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="brand/mofi-c166/"> <img alt="" src="images/brands-images/mofi/2.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="brand/mofi-c162/"> <img alt="" src="images/brands-images/mofi/3.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="brand/mofi-c157/"> <img alt="" src="images/brands-images/mofi/4.jpg"></a>
+
+                    </li>
+                </ul>
+                <!-- {elseif $brand.brand_name eq "Mocolo"} -->
+                <ul class="home-promo-list clearfix">
+                    <li class="first">
+                        <a rel="nofollow" href="brand/mocolo-c162/"> <img alt="" src="images/brands-images/mocolo/1.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="brand/mocolo-c157/"> <img alt="" src="images/brands-images/mocolo/2.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="brand/mocolo-c165/"> <img alt="" src="images/brands-images/mocolo/3.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="brand/mocolo-c160/"> <img alt="" src="images/brands-images/mocolo/4.jpg"></a>
+
+                    </li>
+                </ul>
+                <!-- {elseif $brand.brand_name eq "Mijobs"} -->
+                <ul class="home-promo-list clearfix">
+                    <li class="first">
+                        <a rel="nofollow" href="xiaomi-band-2-milanese-metal-strap-plus.html"> <img alt="" src="images/brands-images/mijobs/1.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="xiaomi-band-2-leather-strap-metal-case.html"> <img alt="" src="images/brands-images/mijobs/2.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="xiaomi-band-2-milanese-metal-strap.html"> <img alt="" src="images/brands-images/mijobs/3.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="xiaomi-mi-band2-screen-protector-oled-film.html"> <img alt="" src="images/brands-images/mijobs/4.jpg"></a>
+
+                    </li>
+                </ul>
+                <!-- {elseif $brand.brand_name eq "Kingma"} -->
+                <ul class="home-promo-list clearfix">
+                    <li class="first">
+                        <a rel="nofollow" href="kingma-gorillapod-flexible-tripod.html"> <img alt="" src="images/brands-images/kingma/1.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="kingma-yi-camera-accessories-bag.html"> <img alt="" src="images/brands-images/kingma/2.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="kingma-yi-diving-waterproof-case.html"> <img alt="" src="images/brands-images/kingma/3.jpg"></a>
+
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="kingma-monopod-for-action-camera.html"> <img alt="" src="images/brands-images/kingma/4.jpg"></a>
+
+                    </li>
+                </ul>
+                <!-- {/if} -->
+            </div>
+        </div>
+    </div>
+    <div class="home-shade-container" id="J_homeShade" style="background: url(data/brandlogo/{$brand.brand_banner}) 50% 0 no-repeat;">
+        <div class="container">
+        <!-- {if $brand.brand_name eq "Nillkin"} -->
+            <h1 class="webfont">{$brand.brand_name}</h1>
+            <!-- {if $brand.brand_logo} -->
+           <img alt="{$brand.brand_name}" src="data/brandlogo/{$brand.brand_logo}">
+            <!-- {/if} -->
+            <h2 class="webfont">{$brand.brand_desc|nl2br}</h2>
+            <!-- {elseif $brand.brand_name eq "iPaky"} -->
+            <h1 class="ipaky-name">{$brand.brand_name}</h1>
+            <!-- {if $brand.brand_logo} -->
+            <img alt="{$brand.brand_name}" src="data/brandlogo/{$brand.brand_logo}">
+            <!-- {/if} -->
+            <h2 class="ipaky-disc">{$brand.brand_desc|nl2br}</h2>
+            <!-- {elseif $brand.brand_name eq "MOFi"} -->
+            <h1 class="mofi-name">{$brand.brand_name}</h1>
+            <!-- {if $brand.brand_logo} -->
+            <img alt="{$brand.brand_name}" src="data/brandlogo/{$brand.brand_logo}">
+            <!-- {/if} -->
+            <h2 class="mofi-disc">{$brand.brand_desc|nl2br}</h2>
+            <!-- {elseif $brand.brand_name eq "Mijobs"} -->
+            <h1 class="mijobs-name">{$brand.brand_name}</h1>
+            <!-- {if $brand.brand_logo} -->
+            <img alt="{$brand.brand_name}" src="data/brandlogo/{$brand.brand_logo}">
+            <!-- {/if} -->
+            <h2 class="mijobs-disc">{$brand.brand_desc|nl2br}</h2>
+            <!-- {elseif $brand.brand_name eq "Mocolo"} -->
+            <h1 class="mocolo-name">{$brand.brand_name}</h1>
+            <!-- {if $brand.brand_logo} -->
+            <img alt="{$brand.brand_name}" src="data/brandlogo/{$brand.brand_logo}">
+            <!-- {/if} -->
+            <h2 class="mocolo-disc">{$brand.brand_desc|nl2br}</h2>
+            <!-- {elseif $brand.brand_name eq "Kingma"} -->
+            <h1 class="kingma-name">{$brand.brand_name}</h1>
+            <!-- {if $brand.brand_logo} -->
+            <img alt="{$brand.brand_name}" src="data/brandlogo/{$brand.brand_logo}">
+            <!-- {/if} -->
+            <h2 class="kingma-disc">{$brand.brand_desc|nl2br}</h2>
+            <!-- {/if} -->
+            <p class="infor">
+            <!-- {foreach from=$brand_cat_list item=cat} -->
+            <a rel="nofollow" href="{$cat.url}" class="btn-brand-category">{$cat.cat_name|escape:html} {if $cat.goods_count}({$cat.goods_count}){/if}</a>
+            <!-- {/foreach} -->
+            </p>
+        </div>
+    </div>
+  </div>
+<div class="home-goods-list">
+<div class="container">
+<!-- #BeginLibraryItem "/library/goods_list.lbi" --><!-- #EndLibraryItem -->
+</div>
+</div>
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --> <!-- #EndLibraryItem -->
+</body>
+</html>

@@ -1,0 +1,68 @@
+@charset "utf-8";
+.tiles_section {
+	background-color: white;
+    padding: 0 2vw;
+   /* margin: .2vw auto;*/
+    text-align: center;
+}
+.tiles_section .offer_tiles {
+    list-style: none;
+    display: inline-block;
+    width: 26.6vw;
+    margin: .5vw;
+    padding: 1vw 1vw 0;
+    text-align: left;
+    border: 1px solid #ccc;
+	background-color: rgb(242, 242, 242);
+}
+.tiles_section .offer_tiles .offer_title 
+{
+	font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+    text-decoration: underline;
+    margin: 0 auto 5px;
+    text-transform: none;
+    letter-spacing: .6px;
+	color: rgb(0, 0, 0);
+}
+.tiles_section .offer_tiles .clearfix {
+    text-align: center;
+    padding-bottom: 5px;
+}
+.tiles_section .offer_tiles .li.offer .offer_link {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.tiles_section .offer_tiles .offer_copy {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    display: inline-block;
+    width: auto;
+}
+.tiles_section .offer_tiles .li.offer .offer_link {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.tiles_section .offer_tiles .offer_copy {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    display: inline-block;
+    width: auto;
+	text-decoration: underline;
+    color: rgb(0, 167, 156);
+}
+.tiles_section a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}

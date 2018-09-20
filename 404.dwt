@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml" fb="http://ogp.me/ns/fb#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="robots" content="INDEX,FOLLOW" />
+<meta property="og:title" content="Tronsmart Pakistan - Tronsmart.pk" />
+<meta property="og:image" content="http://www.justin.pk/images/og-image.jpg" />
+<meta property="og:description" content="Shop online at Tronsmart Pakistan Official Store for Qualcomm Certified Chargers and Power Banks. Including Tronsmart T6 Speakers, Fast Micro USB and Type-C 3.1 Cables, Power Delivery Chargers and Power Banks. Cash on delivery to All Pakistan. Same day Shipping" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>404 - Tronsmart Pakistan</title>
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+<meta name="description" content="Shop online at Tronsmart Pakistan Official Store for Qualcomm Certified Chargers and Power Banks. Including Tronsmart T6 Speakers, Fast Micro USB and Type-C 3.1 Cables, Power Delivery Chargers and Power Banks. Cash on delivery to All Pakistan. Same day Shipping" />
+<meta name="keywords" content="Page Not Found" />
+<meta http-equiv="refresh" content="2; url='http://www.justin.pk'" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
+<link href="common.css" rel="stylesheet" type="text/css" />
+<link href="themes/tronsmart/css/404.css" rel="stylesheet" type="text/css" />
+{* Include script file *}
+{insert_scripts files='common.js'}
+</head>
+<body>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+
+<div class="tronsmart-404">
+    <div class="tronsmart-errcode">
+        <div class="img"><span class="num">404</span></div>
+        <div class="txt">
+            <div class="not">Not found!</div>
+            <div class="sorry">Sorry, this page is not available at this time.</div>
+        </div>
+        <div class="btn-back-home" onclick="location.href='http://www.justin.pk'">Go back home</div>
+    </div>
+</div>
+    
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+</div>
+</body>
+</html>

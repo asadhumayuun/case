@@ -1,0 +1,123 @@
+.clearfix {
+    zoom: 1;
+}
+label{
+  cursor: pointer;
+}
+.heading
+{
+	color: #4e4e4e;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.home-page-carousel {
+
+    overflow: hidden;
+}
+.home-page-carousel .heading {
+    color: #4e4e4e;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.crossbody-carousel {
+    position: relative;
+}
+ul {
+    text-align: center;
+  padding: 0px 0px 10px;
+}
+li {
+  /*  display: inline-block;
+    line-height: 1;
+    position: relative;
+    min-width: auto;
+    font-size: 1rem;
+    color: #4e4e4e;
+    width: auto;*/
+
+	display: inline-block;
+    padding: 0;
+	width: auto;
+    color: #707070;
+    border-bottom: 1px solid #f5f5f5;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: border-color 0.5s;
+    transition: border-color 0.5s;
+    cursor: pointer;
+}
+li:hover,li.tab-active
+{
+	 color: orange;
+    border-bottom: 2px solid orange;
+}
+
+.carousel-inner.active {
+    color: #ff7baa;
+    display: block;
+	webkit-transition: all .4s .2s cubic-bezier(.07,.8,.64,1);
+    transition: all .4s .2s cubic-bezier(.07,.8,.64,1);
+    text-align: center;
+    height: 300px;
+	box-sizing: border-box;
+}
+.carousel-inner .slider-list {
+    width: 233px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 10px 8px 35px;
+    vertical-align: top;
+    padding-bottom: 20px;
+    -webkit-transition: border .2s ease;
+    transition: border .2s ease;
+	box-sizing: border-box;
+}
+.carousel-inner a {
+    display: block;
+    height: 100%;
+    padding: 0;
+	cursor: pointer;
+	background-color: transparent;
+    color: #337ab7;
+    text-decoration: none;
+}
+.carousel-inner .slider-list .image-container {
+    display: block;
+    width: 100%;
+    background: #f6f6f6;
+    padding: 25px 0;
+    -webkit-transition: background .2s ease;
+    transition: background .2s ease;
+	font-size: .8rem;
+	font-family: inherit;
+    margin: 0;
+    padding: 0;
+    color: #4d4d4d;
+}
+.carousel-inner .slider-list img {
+    max-width: 175px;
+	vertical-align: middle;
+	border: 0;
+}
+.product-title-shorts
+{
+	padding: 10px 0;
+    color: #4e4e4e;
+    font-size: .9rem;
+    font-weight: 400;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 35px;
+    width: 100%;
+	font-family: SharpSans;
+	margin: 0;
+}

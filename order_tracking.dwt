@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml" fb="http://ogp.me/ns/fb#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="canonical" href="http://www.justin.pk/support/trackorder" />
+<meta property="og:title" content="Track your order - Tronsmart Pakistan"/>
+<meta property="og:description" content="Get to know status of your Tronsmart order, Track order through your Order Number, Tronsmart Pakistan is the only reliable channel for Tronsmart original products in Pakistan"/>
+<meta property="og:image" content="http://www.justin.pk/images/track-og-image.jpg"/>
+<meta property="og:url" content="http://www.justin.pk/support/trackorder"/>
+<meta property="og:site_name" content="Tronsmart Pakistan"/>
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="always">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>{$page_title}</title>
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+<meta name="Keywords" content="{$keywords}" />
+<meta name="Description" content="{$description}" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
+<link href="common.css" rel="stylesheet" type="text/css" />
+<link href="themes/tronsmart/css/order_tracking.css?v=810252" rel="stylesheet" type="text/css" />
+{* Include script file *}
+{insert_scripts files='common.js?810252.js'}
+</head>
+<body>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+<div class="search-box">
+    <div class="search-absolute">
+        <div class="search-title"></div>
+        <form class="statusForm" name="MiOrderQuery">
+            <div class="input-box">
+                <input id="order_sn" name="order_sn" type="text" class="inp-search" placeholder="Enter Order..." autocomplete="off" maxlength="100">
+                <input type="button" class="btn-search" onclick="orderQuery()" /> </div>
+        </form>
+        <div id="notFindTip" class="tracking-error">
+            <h4 class="notfind-icon"><i class="error-img"></i><span></span></h4> </div>
+        <div class="input-example">Example: <span>TR12345</span> </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="search-section">
+    <div class="section-bg">
+        <div class="section-item" style="background-image:url(images/track-order-1.jpg)"></div>
+        <div class="section-item" style="background-image:url(images/track-order-2.jpg)"></div>
+        <div class="section-item" style="background-image:url(images/track-order-3.jpg)"></div>
+    </div>
+</div>
+<div class="order-tracking-selector">
+    <div class="container">
+        <div class="title-delivery">
+            <h2 class="title">Our Delivery Partners</h2> </div>
+        <ul class="delivery-partners clearfix">
+            <li>
+                <div class="content hidden1">
+                    <p class="conP"><span class="span01"></span></p>
+                    <p class="text">Forrun Pvt. Ltd.</p> <a href="http://forrun.co/track" target="_blank" class="linka">Visit Website</a> </div>
+                <div class="content hidden">
+                    <p class="text3">Forrun Pvt. Ltd.</p>
+                    <p class="text2">Forrun Pvt. Ltd. - An Arpatech Technology Ventures Company</p> <a href="http://forrun.co/track" target="_blank" class="linka1">Visit Website</a></div>
+            </li>
+            <li>
+                <div class="content hidden1">
+                    <p class="conP"><span class="span02"></span></p>
+                    <p class="text">M&amp;P Express Logistics.</p> <a href="http://mulphilog.com" target="_blank" class="linka">Visit Website</a> </div>
+                <div class="content hidden">
+                    <p class="text3">M&amp;P Express Logistics.</p>
+                    <p class="text2">M&P - Logistics business in Pakistan and Asia Pacific Region.</p> <a href="http://mulphilog.com" target="_blank" class="linka1">Visit Website</a></div>
+            </li>
+            <li style="margin-right:0px;">
+                <div class="content hidden1">
+                    <p class="conP"><span class="span03"></span></p>
+                    <p class="text">TCS Express &amp; Logistics.</p> <a href="http://www.tcscouriers.com/pk/Tracking/Default.aspx" target="_blank" class="linka">Visit Website</a> </div>
+                <div class="content hidden">
+                    <p class="text3">TCS Express &amp; Logistics.</p>
+                    <p class="text2">TCS is a Pakistani courier service company headquartered in Karachi.</p> <a href="http://www.tcscouriers.com/pk/Tracking/Default.aspx" target="_blank" class="linka1">Visit Website</a></div>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+<!-- #BeginLibraryItem "/library/order_tracking.lbi" --><!-- #EndLibraryItem -->
+</div>
+
+</div>
+
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+</div>
+</body>
+</html>

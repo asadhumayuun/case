@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Description" content="We know that reaching one person is just as important as reaching millions. Here, you’ll find answers to our most common questions and learn more about Tronsmart products." />
+<meta property="fb:app_id" content="161726554526294" />
+<meta property="og:type"   content="website" /> 
+<meta property="og:url"    content="http://www.justin.pk/support" /> 
+<meta property="og:title"  content="How can we help?" />
+<meta property="og:description" content="We know that reaching one person is just as important as reaching millions. Here, you’ll find answers to our most common questions and learn more about Tronsmart products."/>
+<meta property="og:image"  content="http://www.justin.pk/images/support-og-image.jpg" />
+<meta property="og:site_name" content="Tronsmart Pakistan"/>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>How can we help? - Tronsmart Pakistan</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
+<link href="common.css" rel="stylesheet" type="text/css" />
+<link href="article.css" rel="stylesheet" type="text/css" />
+{* Contains Script Files *}
+{insert_scripts files='common.js'}
+</head>
+<body>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+
+<section class="service-banner">
+    <div>
+        <h2>Tronsmart Support</h2>
+    </div>
+</section>
+<section class="service-nav">
+    <div class="support-text">
+        <div class="support-text-center">
+            <h2>How can we help?</h2>
+            <p>We know that reaching one person is just as important as reaching millions.</p>
+            <p>Here, you’ll find answers to our most common questions and learn more about Tronsmart products. Still have a burning question? We’re here to help.</p>
+        </div>
+    </div>
+    <nav class="nserv-sub-nav clearfix">
+        <ul class="nserv-sub-navlist clearfix">
+            <li class="li1">
+                <a href="">
+                    <span></span>
+                    <h4>Shipping</h4>
+                </a>
+            </li>
+            <li class="li2">
+                <a href="">
+                    <span></span>
+                    <h4>Payment</h4>
+                </a>
+            </li>
+            <li class="li3">
+                <a href="">
+                    <span></span>
+                    <h4>Shopping Guide</h4>
+                </a>
+            </li>
+            <li class="li4">
+                <a href="">
+                    <span></span>
+                    <h4>Track Order</h4>
+                </a>
+            </li>
+            <li class="li5">
+                <a href="support/warranty">
+                    <span></span>
+                    <h4>Warranty</h4>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</section>
+<section class="nserv-point">
+    <div class="nserv-point-inner">
+        <h2>Contact Us</h2>
+        <h3>We’re here to help with all of your Tronsmart products. From the Speakers to the Powerbanks, get support by Call, Chat, WhatsApp, Email channels or submit your feedback/complaints to our experts regarding our products and services.</h3>
+        <div class="nserv-point-content clearfix">
+            <div class="tronsmart-support hotline-service">
+                <h4>HOTLINE SERVICE</h4>
+                <p>Hotline Service is available from 9 a.m. to 7 p.m. local time.</p>
+                <img src="themes/tronsmart/images/hotline-support.svg">
+                <span class="telephone-num">03 206 (649922)</span>
+            </div>
+            <div class="tronsmart-support">
+                <h4>CHAT SUPPORT</h4>
+                <p>Online chat is available from 9 a.m. to 7 p.m. local time.</p>
+                <img src="themes/tronsmart/images/live-chat.svg">
+                <a class="live-chat" href="" target="_blank">CHAT NOW</a>
+            </div>
+            <div class="tronsmart-support email-support">
+                <h4>SERVICE EMAIL</h4>
+                <p>Email Service For general inquiries.</p>
+                <img src="themes/tronsmart/images/email-icon.svg">
+                <span class="support-email">sales@tronsmart.pk</span>
+            </div>
+            <div class="tronsmart-support chat-support">
+                <h4>WHATSAPP</h4>
+                <p>WhatsApp is available from 9 a.m. to 7 p.m. local time.</p>
+                <img src="themes/tronsmart/images/whatsapp.svg">
+                <a class="live-chat" href="https://api.whatsapp.com/send?phone=923366342663" target="_blank">WHATSAPP NOW</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --> <!-- #EndLibraryItem -->
+</body>
+</html>

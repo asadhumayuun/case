@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="{$keywords}" />
+<meta name="Description" content="{$description}" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>All brands - Xiaomi Store Pakistan</title>
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
+<link href="css/brand.css" rel="stylesheet" type="text/css" />
+<link href="common.css" rel="stylesheet" type="text/css" />
+{* Contains Script Files *}
+{insert_scripts files='jquery-1.9.1.min.js,jquery.json.js'}
+{insert_scripts files='common.js,global.js,compare.js'}
+</head>
+<body>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+
+<div id="wrapper">
+<!-- #BeginLibraryItem "/library/ur_here.lbi" --><!-- #EndLibraryItem -->
+<div class="container">
+    <div class="check-box-index">
+        <div class="box-bd">
+            <h2>Brands On Xiaomi Store Pakistan</h2>
+            <p class="tips">Xiaomi Mi Smartphone Covers & Accessories</p>
+            <ul class="list-icon-link clearfix">
+                <li>
+                    <a href="brand/mofi/">
+                        <img src="images/brands-images/mofi/mofi-main.png" alt="MOFi Xiaomi Accessories" width="240" height="210">
+                        <span class="title">MOFi</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="brand/ipaky/">
+                        <img src="images/brands-images/ipaky/ipaky-main.png" alt="iPaky Xiaomi Accessories" width="240" height="210">
+                        <span class="title">iPaky</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="brand/mocolo/">
+                        <img src="images/brands-images/mocolo/mocolo-main.png" alt="Mocolo Xiaomi Accessories" width="240" height="210">
+                        <span class="title">Mocolo</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="brand/nillkin/">
+                        <img src="images/brands-images/nillkin/nillkin-main.png" alt="Nillkin Xiaomi Accessories" width="240" height="210">
+                        <span class="title">Nillkin</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="brand/mijobs/">
+                        <img src="images/brands-images/mijobs/mijobs-main.png" alt="Mi Band 2 Mijobs Accessories" width="240" height="210">
+                        <span class="title">Mijobs</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="brand/kingma/">
+                        <img src="images/brands-images/kingma/kingma-main.png" alt="Kingma Action Camera Accessories" width="240" height="210">
+                        <span class="title">Kingma</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --> <!-- #EndLibraryItem -->
+</body>
+</html>

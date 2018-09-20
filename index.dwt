@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml" fb="http://ogp.me/ns/fb#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="{$keywords}" />
+<meta name="Description" content="{$description}" />
+<meta property="fb:app_id" content="161726554526294" />
+<meta property="og:type"   content="website" />
+<meta property="og:url"    content="http://www.justin.pk" />
+<meta property="og:title"  content="Tronsmart Pakistan" />
+<meta property="og:description" content="Shop online at Tronsmart Pakistan Official Store for Qualcomm Certified Chargers and Power Banks. Including Tronsmart T6 Speakers, Fast Micro USB and Type-C 3.1 Cables, Power Delivery Chargers and Power Banks. Cash on delivery to All Pakistan. Same day Shipping"/>
+<meta property="og:image"  content="http://www.justin.pk/images/og-image.jpg" />
+<meta property="og:site_name" content="Tronsmart Pakistan"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>{$page_title}</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link rel="shortcut icon" href="favicon.ico" />
+<link href="{$ecs_css_path}?v=71024223" rel="stylesheet" type="text/css" />
+<link href="index.css" rel="stylesheet" type="text/css" />
+<link href="lrtk.css" rel="stylesheet" type="text/css" />
+
+<link href="page_footer_jic.css" rel="stylesheet" type="text/css" />
+
+<link rel="alternate" type="application/rss+xml" title="RSS|{$page_title}" href="{$feed_url}" />
+{* Contains Script Files *}
+{insert_scripts files='common.js,index.js,jquery.js,popwin.js'}
+<script type="text/javascript">
+   jQuery(document).ready(function() {
+     $("time.timeago").timeago();
+   });
+</script>
+</head>
+<body>
+<div id="notification">Extra Rs.200 Off on orders above Rs.2000 || Extra Rs.400 Off on orders above Rs.3000</div>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+{insert_scripts files='xiaomi_index.js'}
+<!-- #BeginLibraryItem "/library/tiles_section.lbi" --><!-- #EndLibraryItem -->
+
+<!--I have commented.. to recall follow E:\MobileWaale\JustInCase.Pk\Haris Header-->
+<!-- #BeginLibraryItem "/library/banner.lbi" --><!-- #EndLibraryItem -->
+<!--Home Rotation end-->
+<!--chanel list is placed in E:\MobileWaale\JustInCase.Pk\Haris Header -->
+
+<!--页面主体-->
+
+<!--页面主体-->
+<div class="page-main home-main">
+	<div class="container">
+
+		<!--chanel list is placed in E:\MobileWaale\JustInCase.Pk\Haris Header\product-div -->
+				 <!-- TemplateBeginEditable name="categoriesofgoods" -->
+<!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
+
+<div class="home-brick-box home-brick-row-2-box xm-plain-box J_itemBox J_brickBox is-visible loaded">
+	<!--分类商品头部-->
+	<div class="box-hd">
+        <h2 class="title">{$goods_cat.name}</h2>
+        <div class="more J_brickNav">
+            <ul class="tab-list J_brickTabSwitch">
+            	<li class="tab-active">All</li>
+                <!--{foreach from=$goods_cat.goods_level2  item=goods_level2 name=goods_level2}-->
+                <!-- {if $smarty.foreach.goods_level2.iteration<5}-->
+            	<li>{$goods_level2.name}</li>
+                <!-- {/if} -->
+                <!--{/foreach}-->
+            </ul>
+        </div>
+    </div>
+    <!--分类商品主体-->
+
+
+    <div class="box-bd J_brickBd">
+    	<div class="row">
+            <div class="span20">
+
+            	<!--Most Popular start-->
+            	<ul class="brick-list clearfix">
+                  <!--{foreach from=$goods_cat.cat_hot item=goods name=cate}-->
+                  <!-- {if $smarty.foreach.cate.iteration<9}-->
+                  <li class="brick-item brick-item-m">
+                      <div class="figure figure-img">
+                          <a href="{$goods.url}">
+                              <img src="{$goods.thumb}" width="200" height="200" alt="{$goods.name|escape:html}">
+                          </a>
+                      </div>
+                      <h3 class="title">
+                          <a href="{$goods.url}">{$goods.name|escape:html}</a>
+                      </h3>
+                      <p class="price">
+                          <!-- {if $goods.promote_price neq ""} -->{$goods.promote_price}<!-- {else}-->{$goods.shop_price}<!--{/if}-->
+                      </p>
+                  </li>
+                  <!-- {/if} -->
+                  <!--{/foreach}-->
+                </ul>
+                <!--Most Popular end-->
+
+            	<!--{foreach from=$goods_cat.goods_level2  item=goods_level2 name=goods_level2}-->
+                <!-- {if $smarty.foreach.goods_level2.iteration<5}-->
+            	<ul class="brick-list clearfix">
+                  <!--{foreach from=$goods_level2.goods item=goods name=goods}-->
+                  <!-- {if $smarty.foreach.goods.iteration<5}-->
+                  <li class="brick-item brick-item-m">
+                      <div class="figure figure-img">
+                          <a href="{$goods.url}">
+                              <img src="{$goods.goods_thumb}" width="200" height="200" alt="{$goods.name|escape:html}">
+                          </a>
+                      </div>
+                      <h3 class="title">
+                          <a href="{$goods.url}">{$goods.goods_name|escape:html}</a>
+                      </h3>
+                      <p class="price">
+                          <!-- {if $goods.promote_price neq ""} -->{$goods.promote_price}<!-- {else}-->{$goods.shop_price}<!--{/if}-->
+                      </p>
+                  </li>
+                  <!-- {/if} -->
+                  <!--{/foreach}-->
+                </ul>
+                <!-- {/if} -->
+                <!--{/foreach}-->
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- #EndLibraryItem -->
+<!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
+
+<div class="home-brick-box home-brick-row-2-box xm-plain-box J_itemBox J_brickBox is-visible loaded">
+	<!--分类商品头部-->
+	<div class="box-hd">
+        <h2 class="title">{$goods_cat.name}</h2>
+        <div class="more J_brickNav">
+            <ul class="tab-list J_brickTabSwitch">
+            	<li class="tab-active">All</li>
+                <!--{foreach from=$goods_cat.goods_level2  item=goods_level2 name=goods_level2}-->
+                <!-- {if $smarty.foreach.goods_level2.iteration<5}-->
+            	<li>{$goods_level2.name}</li>
+                <!-- {/if} -->
+                <!--{/foreach}-->
+            </ul>
+        </div>
+    </div>
+    <!--分类商品主体-->
+    <div class="box-bd J_brickBd">
+    	<div class="row">
+            <div class="span20">
+
+            	<!--Most Popular start-->
+            	<ul class="brick-list clearfix">
+                  <!--{foreach from=$goods_cat.cat_hot item=goods name=cate}-->
+                  <!-- {if $smarty.foreach.cate.iteration<9}-->
+                  <li class="brick-item brick-item-m">
+                      <div class="figure figure-img">
+                          <a href="{$goods.url}">
+                              <img src="{$goods.thumb}" width="200" height="200" alt="{$goods.name|escape:html}">
+                          </a>
+                      </div>
+                      <h3 class="title">
+                          <a href="{$goods.url}">{$goods.name|escape:html}</a>
+                      </h3>
+                      <p class="price">
+                          <!-- {if $goods.promote_price neq ""} -->{$goods.promote_price}<!-- {else}-->{$goods.shop_price}<!--{/if}-->
+                      </p>
+                  </li>
+                  <!-- {/if} -->
+                  <!--{/foreach}-->
+                </ul>
+                <!--Most Popular end-->
+
+            	<!--{foreach from=$goods_cat.goods_level2  item=goods_level2 name=goods_level2}-->
+                <!-- {if $smarty.foreach.goods_level2.iteration<5}-->
+            	<ul class="brick-list clearfix">
+                  <!--{foreach from=$goods_level2.goods item=goods name=goods}-->
+                  <!-- {if $smarty.foreach.goods.iteration<5}-->
+                  <li class="brick-item brick-item-m">
+                      <div class="figure figure-img">
+                          <a href="{$goods.url}">
+                              <img src="{$goods.goods_thumb}" width="200" height="200" alt="{$goods.name|escape:html}">
+                          </a>
+                      </div>
+                      <h3 class="title">
+                          <a href="{$goods.url}">{$goods.goods_name|escape:html}</a>
+                      </h3>
+                      <p class="price">
+                          <!-- {if $goods.promote_price neq ""} -->{$goods.promote_price}<!-- {else}-->{$goods.shop_price}<!--{/if}-->
+                      </p>
+                  </li>
+                  <!-- {/if} -->
+                  <!--{/foreach}-->
+                </ul>
+                <!-- {/if} -->
+                <!--{/foreach}-->
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- #EndLibraryItem -->
+<!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
+
+<div class="home-brick-box home-brick-row-2-box xm-plain-box J_itemBox J_brickBox is-visible loaded">
+	<!--分类商品头部-->
+	<div class="box-hd">
+        <h2 class="title">{$goods_cat.name}</h2>
+        <div class="more J_brickNav">
+            <ul class="tab-list J_brickTabSwitch">
+            	<li class="tab-active">All</li>
+                <!--{foreach from=$goods_cat.goods_level2  item=goods_level2 name=goods_level2}-->
+                <!-- {if $smarty.foreach.goods_level2.iteration<5}-->
+            	<li>{$goods_level2.name}</li>
+                <!-- {/if} -->
+                <!--{/foreach}-->
+            </ul>
+        </div>
+    </div>
+    <!--分类商品主体-->
+    <div class="box-bd J_brickBd">
+    	<div class="row">
+            <div class="span20">
+
+            	<!--Most Popular start-->
+            	<ul class="brick-list clearfix">
+                  <!--{foreach from=$goods_cat.cat_hot item=goods name=cate}-->
+                  <!-- {if $smarty.foreach.cate.iteration<9}-->
+                  <li class="brick-item brick-item-m">
+                      <div class="figure figure-img">
+                          <a href="{$goods.url}">
+                              <img src="{$goods.thumb}" width="200" height="200" alt="{$goods.name|escape:html}">
+                          </a>
+                      </div>
+                      <h3 class="title">
+                          <a href="{$goods.url}">{$goods.name|escape:html}</a>
+                      </h3>
+                      <p class="price">
+                          <!-- {if $goods.promote_price neq ""} -->{$goods.promote_price}<!-- {else}-->{$goods.shop_price}<!--{/if}-->
+                      </p>
+                  </li>
+                  <!-- {/if} -->
+                  <!--{/foreach}-->
+                </ul>
+                <!--Most Popular end-->
+
+            	<!--{foreach from=$goods_cat.goods_level2  item=goods_level2 name=goods_level2}-->
+                <!-- {if $smarty.foreach.goods_level2.iteration<5}-->
+            	<ul class="brick-list clearfix">
+                  <!--{foreach from=$goods_level2.goods item=goods name=goods}-->
+                  <!-- {if $smarty.foreach.goods.iteration<5}-->
+                  <li class="brick-item brick-item-m">
+                      <div class="figure figure-img">
+                          <a href="{$goods.url}">
+                              <img src="{$goods.goods_thumb}" width="200" height="200" alt="{$goods.name|escape:html}">
+                          </a>
+                      </div>
+                      <h3 class="title">
+                          <a href="{$goods.url}">{$goods.goods_name|escape:html}</a>
+                      </h3>
+                      <p class="price">
+                          <!-- {if $goods.promote_price neq ""} -->{$goods.promote_price}<!-- {else}-->{$goods.shop_price}<!--{/if}-->
+                      </p>
+                  </li>
+                  <!-- {/if} -->
+                  <!--{/foreach}-->
+                </ul>
+                <!-- {/if} -->
+                <!--{/foreach}-->
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- #EndLibraryItem -->
+<!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
+
+<div class="home-brick-box home-brick-row-2-box xm-plain-box J_itemBox J_brickBox is-visible loaded">
+	<!--分类商品头部-->
+	<div class="box-hd">
+        <h2 class="title">{$goods_cat.name}</h2>
+        <div class="more J_brickNav">
+            <ul class="tab-list J_brickTabSwitch">
+            	<li class="tab-active">All</li>
+                <!--{foreach from=$goods_cat.goods_level2  item=goods_level2 name=goods_level2}-->
+                <!-- {if $smarty.foreach.goods_level2.iteration<5}-->
+            	<li>{$goods_level2.name}</li>
+                <!-- {/if} -->
+                <!--{/foreach}-->
+            </ul>
+        </div>
+    </div>
+    <!--分类商品主体-->
+    <div class="box-bd J_brickBd">
+    	<div class="row">
+            <div class="span20">
+
+            	<!--Most Popular start-->
+            	<ul class="brick-list clearfix">
+                  <!--{foreach from=$goods_cat.cat_hot item=goods name=cate}-->
+                  <!-- {if $smarty.foreach.cate.iteration<9}-->
+                  <li class="brick-item brick-item-m">
+                      <div class="figure figure-img">
+                          <a href="{$goods.url}">
+                              <img src="{$goods.thumb}" width="200" height="200" alt="{$goods.name|escape:html}">
+                          </a>
+                      </div>
+                      <h3 class="title">
+                          <a href="{$goods.url}">{$goods.name|escape:html}</a>
+                      </h3>
+                      <p class="price">
+                          <!-- {if $goods.promote_price neq ""} -->{$goods.promote_price}<!-- {else}-->{$goods.shop_price}<!--{/if}-->
+                      </p>
+                  </li>
+                  <!-- {/if} -->
+                  <!--{/foreach}-->
+                </ul>
+                <!--Most Popular end-->
+
+            	<!--{foreach from=$goods_cat.goods_level2  item=goods_level2 name=goods_level2}-->
+                <!-- {if $smarty.foreach.goods_level2.iteration<5}-->
+            	<ul class="brick-list clearfix">
+                  <!--{foreach from=$goods_level2.goods item=goods name=goods}-->
+                  <!-- {if $smarty.foreach.goods.iteration<5}-->
+                  <li class="brick-item brick-item-m">
+                      <div class="figure figure-img">
+                          <a href="{$goods.url}">
+                              <img src="{$goods.goods_thumb}" width="200" height="200" alt="{$goods.name|escape:html}">
+                          </a>
+                      </div>
+                      <h3 class="title">
+                          <a href="{$goods.url}">{$goods.goods_name|escape:html}</a>
+                      </h3>
+                      <p class="price">
+                          <!-- {if $goods.promote_price neq ""} -->{$goods.promote_price}<!-- {else}-->{$goods.shop_price}<!--{/if}-->
+                      </p>
+                  </li>
+                  <!-- {/if} -->
+                  <!--{/foreach}-->
+                </ul>
+                <!-- {/if} -->
+                <!--{/foreach}-->
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- #EndLibraryItem -->
+<!-- TemplateEndEditable -->
+
+</div>
+<!-- this has been replaved orginal file is plave E:\MobileWaale\JustInCase.Pk\Haris Header\transomr home review -->
+<!-- #BeginLibraryItem "/library/tronsmart_reviews.lbi" --><!-- #EndLibraryItem --> 
+<!-- #BeginLibraryItem "/library/Hot-Section.lbi" --><!-- #EndLibraryItem -->
+<div id="video" class="home-video-box xm-plain-box J_itemBox J_videoBox is-visible">
+<!-- #BeginLibraryItem "/library/recommend_video.lbi" --><!-- #EndLibraryItem -->
+</div>
+
+<!-- #BeginLibraryItem "/library/new_idea.lbi" --><!-- #EndLibraryItem -->
+
+<!-- #BeginLibraryItem "/library/new_products_email.lbi" --><!-- #EndLibraryItem -->
+</div>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Pakistan",
+    "addressRegion": "Islamabad",
+    "streetAddress": "Office No 313, 3rd Floor, Lord Trade Center, F-11 Markaz."
+  },
+  "description": "Shop online at Tronsmart Store for Tronsmart Products in Pakistan, Cash on delivery supported.",
+  "name": "Tronsmart Pakistan",
+  "image": "http://www.justin.pk/images/og-image.jpg",
+  "email": "sales@tronsmart.pk",
+  "telephone": "03 206 (649922)",
+  "openingHours": "Monday through Sunday, all day",
+  "url": "http://www.justin.pk/"
+}
+</script>
+<script type="text/javascript">
+	jQuery(".tronsmart-slider").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"leftLoop", vis:"auto", autoPlay:true, autoPage:true, trigger:"click" });
+ </script>
+<div id="J_modalVideo" class="modal modal-video fade modal-hide">
+	<div class="modal-hd">
+    	<h3 class="title"></h3>
+        <a class="close"><i class="iconfont"></i></a>
+    </div>
+    <div class="modal-bd">
+    	<iframe width="854" height="536" src="" frameborder="0" allowfullscreen></iframe>
+    </div>
+	<div>this is the respective div</div>
+</div>
+
+<!-- #BeginLibraryItem "/library/page_footer_jic.lbi" --><!-- #EndLibraryItem -->
+</body>
+</html>

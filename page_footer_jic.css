@@ -1,0 +1,576 @@
+@media (min-width: 768px){
+.col-sm-offset-4 {
+    margin-left: 33.33333%;
+	}
+}
+
+
+@media (min-width: 768px){
+.col-sm-1 {
+    width: 8.33333%;
+	}
+}
+
+@media (min-width: 768px){
+.col-sm-3 {
+    width: 25%;
+	}
+}
+
+@media (min-width: 992px){
+.col-md-12 {
+    width: 100%;
+	}
+}
+
+@media (min-width: 768px){
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: left;
+	}
+}
+
+footer {
+    background: #f3f3f3;
+}
+
+.page-footer {
+    border-top: 1px dotted #ccc;
+}
+
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+footer .newzletter {
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+footer .newzletter h4 {
+    font-size: 24px;
+    margin: 25px 0 15px;
+    color: #4d4d4d;
+    font-weight: 700;
+}
+
+.text-center {
+    text-align: center;
+}
+
+footer .newzletter p {
+    color: #666;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 2em;
+}
+
+input.sub_email {
+    height: 38px!important;
+    background-color: #fff;
+    border: 1px solid #e6e6e5;
+    border-radius: 4px;
+    color: rgba(0,0,0,.75);
+    display: block;
+    font-family: inherit;
+    font-size: .875rem;
+    margin: 0;
+    padding: .5rem;
+    -webkit-transition: box-shadow .45s ease 0s,border-color .45s ease-in-out;
+    transition: box-shadow .45s ease 0s,border-color .45s ease-in-out;
+    width: 100%;
+}
+
+
+input.sub_email:focus {
+    border-color: #d8d8d8;
+    box-shadow: none;
+    background: #fff;
+    outline: 0
+}
+
+
+#passwrd-reset-msg,
+#toast-container *,
+*,
+:after,
+:before,
+input.sub_email {
+    box-sizing: border-box
+}
+
+.img-thumbnail,
+input.subscribe-btn {
+    -webkit-transition: all .2s ease-in-out
+}
+
+input.subscribe-btn {
+    border: 1px solid #666;
+    border-radius: 4px;
+    color: #666;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 10px 10px;
+    padding: 10px 0;
+    transition: all .2s ease-in-out;
+    background: 0 0;
+}
+
+
+footer .helpdesk a,
+input.subscribe-btn {
+    display: inline-block;
+    font-family: SharpSans;
+    height: 35px;
+    width: 192px;
+    vertical-align: middle
+}
+
+
+input.subscribe-btn {
+    border: 1px solid #666;
+    border-radius: 4px;
+    color: #666;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 10px 10px;
+    padding: 10px 0;
+    transition: all .2s ease-in-out;
+    background: 0 0
+}
+
+input.subscribe-btn:hover {
+    background: #666;
+    color: #fff
+}
+
+.button1,.button2
+{
+	-webkit-transition:color .15s ease-in-out,background-color .3s ease-out;
+}
+
+footer .helpdesk, footer .social {
+    border-top: 1px dotted #ccc;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+footer .helpdesk h4 {
+    background: url(https://ik.imagekit.io/dailyobjects/assets/images/Do-Icon-1.png) -107px -12px no-repeat;
+    padding-left: 40px;
+    display: inline-block;
+    font-family: SharpSans;
+    font-size: 24px;
+    line-height: 22px;
+    margin: 25px 0 15px;
+    color: #4d4d4d;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+footer .helpdesk .btn-group {
+    float: none;
+    display: block;
+}
+
+footer .btn-group a {
+    text-decoration: none;
+}
+
+footer .helpdesk a {
+    border: 1px solid #666;
+    border-radius: 4px;
+    color: #666;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 10px;
+    padding: 10px 0;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+
+footer .helpdesk a:hover {
+    background: #666;
+    color: #fff
+}
+
+footer .helpdesk a, input.subscribe-btn {
+    display: inline-block;
+    height: 35px;
+    width: 192px;
+    vertical-align: middle;
+	font-family: inherit;
+}
+
+.ng-hide:not(.ng-hide-animate) {
+    display: none !important;
+}
+
+footer .social {
+    padding-top: 25px;
+}
+
+footer .helpdesk, footer .social {
+    border-top: 1px dotted #ccc;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+footer .social p {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 2em;
+}
+
+footer .social h5, footer .social p {
+    color: #666;
+    font-family: inherit;
+}
+
+footer .social ul {
+    display: block;
+    list-style: none;
+}
+
+footer .social ul li {
+    display: inline-block;
+    margin: 0 20px;
+    padding-bottom: 0;
+}
+
+footer .social ul li a {
+    display: table-cell;
+    vertical-align: middle;
+    height: 123px;
+    width: 123px;
+    border-radius: 0;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+    padding: 1px;
+}
+.twitter a {
+    background: url(https://ik.imagekit.io/dailyobjects/assets/images/Do-Icon-01.png) -55px -327px no-repeat!important
+}
+
+.twitter:hover a {
+    background: url(https://ik.imagekit.io/dailyobjects/assets/images/Do-Icon-01.png) -55px -468px no-repeat!important
+}
+
+.facebook a {
+    background: url(https://ik.imagekit.io/dailyobjects/assets/images/Do-Icon-01.png) -235px -327px no-repeat!important
+}
+
+.facebook:hover a {
+    background: url(https://ik.imagekit.io/dailyobjects/assets/images/Do-Icon-01.png) -235px -468px no-repeat!important
+}
+
+.gplus a {
+    background: url(https://ik.imagekit.io/dailyobjects/assets/images/Do-Icon-01.png) -416px -327px no-repeat!important
+}
+
+.gplus:hover a {
+    background: url(https://ik.imagekit.io/dailyobjects/assets/images/Do-Icon-01.png) -416px -468px no-repeat!important
+}
+
+.instagram a {
+    background: url(https://ik.imagekit.io/dailyobjects/assets/images/Do-Icon-01.png) -596px -327px no-repeat!important
+}
+
+.instagram:hover a {
+    background: url(https://ik.imagekit.io/dailyobjects/assets/images/Do-Icon-01.png) -596px -468px no-repeat!important
+}
+
+.pinterest a {
+    background: url(https://ik.imagekit.io/dailyobjects/assets/images/Do-Icon-01.png) -740px -327px no-repeat!important
+}
+
+.pinterest:hover a {
+    background: url(https://ik.imagekit.io/dailyobjects/assets/images/Do-Icon-01.png) -740px -468px no-repeat!important
+}
+
+
+
+footer .invite-designer-link {
+    background: #fff;
+    border-top: 1px solid #e6e6e6;
+    position: relative;
+    text-align: center
+}
+
+footer .invite-designer-link p {
+    color: #666;
+    line-height: 4.6em;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    margin: 0;
+    overflow: hidden
+}
+
+footer .invite-designer-link a,
+footer .invite-designer-link p {
+    font-weight: 200;
+    font-size: 18px
+}
+
+
+footer .invite-designer-link a {
+    border-bottom: 1px solid;
+    color: #00a79d;
+    display: inline-block;
+    line-height: 15px;
+    margin-left: 12px;
+    text-decoration: none
+}
+
+footer .invite-designer-link img {
+    position: relative;
+    top: 14px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+footer .invite-designer-link:hover img {
+    top: 7px
+}
+
+footer .invite-designer-link:hover p {
+    color: #ff7bac
+}
+
+footer .about-us {
+    text-align: center;
+    padding-bottom: 2em;
+	font-family: ProximaNova,Arial,Sans-serif;
+}
+
+footer .about-us h3 {
+    font-family: chunkfiveroman;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 25px 0 15px;
+    color: #00a99d;
+    text-transform: uppercase
+}
+
+footer .about-us p,
+footer .about-us p a.know-more-about {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0
+}
+
+footer .about-us p {
+    color: #666
+}
+
+footer .about-us p a.know-more-about {
+    color: #ff931e;
+    display: inline-block;
+    text-decoration: none
+}
+
+footer .about-us p a.know-more-about:hover {
+    text-decoration: underline;
+    color: #ff931e;
+	cursor: pointer
+}
+
+
+#aboutUsContent {
+    margin-top: 35px;
+	margin-left: 100px;
+    margin-right: 100px;
+}
+
+#aboutUsContent .footer-heading {
+    margin: 0;
+    font: 400 18px ProximaNova,Arial,sans-serif;
+    color: #333;
+    padding-bottom: 5px
+}
+
+#aboutUsContent .footer-content {
+    font: 200 18px/24px ProximaNova,Arial,sans-serif;
+    color: #666;
+    margin-bottom: 0;
+    padding: 0 0 28px
+}
+
+#aboutUsContent .footer-content a {
+    text-decoration: underline;
+    line-height: 15px;
+    color: #00a79d
+}
+
+.do-features {
+    background: #4d4d4d;
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding: 14px 0
+}
+
+.do-features ul {
+    display: block;
+    list-style: none;
+    margin: 0
+}
+
+.do-features ul li {
+    display: inline-block;
+    margin: 0 10px
+}
+
+.do-features h5 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    line-height: 18px;
+    text-transform: capitalize
+}
+
+.do-features span {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    margin: 0 10px 0 0;
+    vertical-align: middle
+}
+
+.do-features h5,
+.footer-links ul li {
+    font-family: inherit;
+}
+
+
+.features-qd span {
+    background: url(https://ik.imagekit.io/dailyobjects/assets/images/Do-Icon-01.png) -889px -274px no-repeat
+}
+
+.features-cod span {
+    background: url(https://ik.imagekit.io/dailyobjects/assets/images/Do-Icon-01.png) -890px -376px no-repeat
+}
+
+.features-er span {
+    background: url(https://ik.imagekit.io/dailyobjects/assets/images/Do-Icon-01.png) -890px -491px no-repeat
+}
+
+.features-qa span {
+    background: url(https://ik.imagekit.io/dailyobjects/assets/images/Do-Icon-01.png) -889px -159px no-repeat
+}
+
+
+.footer-links {
+    background: #000;
+    display: inline-block;
+    width: 100%
+}
+
+.footer-links div.logo-bg {
+    position: absolute;
+    left: 0;
+    height: 35px
+}
+
+.footer-links div.logo-bg img {
+    height: 100%;
+    width: auto
+}
+
+.footer-links ul {
+    text-align: center;
+    padding: 7px 0;
+    display: block;
+    margin: 0;
+    list-style: none
+}
+
+.footer-links ul li {
+    float: none;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.6em;
+    font-weight: 400;
+    margin: 0 10px
+}
+
+.disp-none,
+.footer-links ul li a i {
+    display: none
+}
+
+.footer-links ul li a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+	font-family: ProximaNova,Arial,sans-serif;
+}
+
+.footer-links ul li a:hover {
+    color: #7beee7
+}
+
+
+.quick-links h2,
+.quick-links li {
+    display: inline-block;
+    color: #fff
+}
+
+.page-footer {
+    border-top: 1px dotted #ccc;
+	font-family: ProximaNova,Arial,Sans-serif;
+}
+
+.quick-links {
+    width: 100%;
+    padding: 25px 5%;
+    background: #000
+}
+
+.quick-links h2 {
+    font-size: 13px;
+    text-transform: capitalize;
+    margin-bottom: 10px
+}
+
+.quick-links ul {
+    margin: 0;
+    padding: 0
+}
+
+.quick-links li {
+    list-style: none
+}
+
+.quick-links li:after {
+    content: "|";
+    color: #fff;
+    font-size: 15px;
+    padding: 0 10px
+}
+
+.quick-links li a {
+    color: #fff;
+    font-size: 12px
+}
+
+.quick-links li a:hover {
+    color: #FF931E
+}

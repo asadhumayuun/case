@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="{$keywords}" />
+<meta name="Description" content="{$description}" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>{$article.title} - Tronsmart Pakistan</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
+<link href="common.css" rel="stylesheet" type="text/css" />
+<link href="themes/tronsmart/article.css?ver=2.2" rel="stylesheet" type="text/css" />
+{* Contains Script Files *}
+{insert_scripts files='common.js'}
+</head>
+<body>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+
+<div class="tronsmart-support-page">
+    <div class="tronsmart-support-inner support-background-{$article.article_id}">
+        <div class="tronsmart-support-container">
+            <h1>{$article.title|escape:html}</h1>
+            <div class="support-breadcrumb">
+            {$ur_here}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="support-page-main">
+    <div class="support-page-inner"> {$article.content} </div>
+</div>
+</div>
+    
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+</body>
+</html>

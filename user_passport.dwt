@@ -1,0 +1,445 @@
+﻿﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="{$keywords}" />
+<meta name="Description" content="{$description}" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>{$page_title}</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="themes/tronsmart/login.css?v=810242" rel="stylesheet" type="text/css" />
+<link href="css/tronsmart_alerts.css" rel="stylesheet" type="text/css" />
+{* Contains script files *}
+{insert_scripts files='common.js,tronsmart_alerts.js'}
+</head>
+<body>
+<!-- #BeginLibraryItem "/library/page_header_login.lbi" --><!-- #EndLibraryItem --> 
+<script>
+$(function(){
+	
+	//Load the empty text box
+	$("input:text,input:password").val("");
+	
+	//Prompt text hides the display
+	//login interface
+	$(".tronsmart-store-login .login-wrap .item_account").focus(function(){
+		if($(this).val().length==0){
+			$(this).parents(".labelbox").removeClass("error_bg");
+		}
+	}).blur(function(){
+		if($(this).val().length==0){
+			$(this).parents(".labelbox").addClass("error_bg");
+		}
+	}).keyup(function(){
+		if($(this).val().length>0){
+			$(this).parents(".labelbox").removeClass("error_bg");
+		}else{
+			$(this).parents(".labelbox").addClass("error_bg");
+		}
+	});
+	//Registration Interface
+	$(".xiaomi-store-register .regbox .item_register").focus(function(){
+		if($(this).val().length==0){
+			$(this).parents(".labelbox").removeClass("err_label");
+		}
+	}).blur(function(){
+		if($(this).val().length==0){
+			$(this).parents(".labelbox").addClass("err_label");
+		}
+	}).keyup(function(){
+		if($(this).val().length>0){
+			$(this).parents(".labelbox").removeClass("err_label");
+		}else{
+			$(this).parents(".labelbox").addClass("err_label");
+		}
+	});
+	
+	//Other Login
+	$("#other_method").click(function(){
+		if($(".third-area").hasClass("hide")){
+			$(".third-area").removeClass("hide");
+		}else{
+			$(".third-area").addClass("hide");
+		}
+	})
+})
+</script> 
+<!--#login interface start-->
+<!-- {if $action eq 'login'} -->
+{insert_scripts files='user.js?810242.js'}
+<script type="text/javascript">
+    window.onload = function () { 
+       document.body.style.backgroundColor = "white";
+}
+</script>
+<div class="tronsmart-store-login">
+    <div class="h_panel">
+        <div class="h_logo"> <a href="http://www.justin.pk" target="_parent">Tronsmart Pakistan</a> </div>
+    </div>
+    <div class="login_banner_panel" style="background-image: url(themes/tronsmart/images/tronsmart-store-login-bg.jpg);">
+        <a href="http://www.justin.pk" target="_parent">Tronsmart Pakistan</a> </div>
+    <div class="login-wrap">
+        <div class="layout_panel">
+            <div class="layout">
+                <div class="mainbox">
+                    <div class="nav_tabs_panel">
+                        <div class="nav_tabs"> <a class="navtab-link now" href="javascript:void(0);">Sign in</a><span class="line"></span> <a class="navtab-link" href="user/register">Create Account</a> </div>
+                    </div>
+                    <div class="tabs_con now">
+                        <div>
+                            <div class="login_area">
+                                <form name="formLogin" action="user.php" method="post" onSubmit="return user_login(1)">
+                                    <div class="loginbox c_b">
+                                        <div class="lgn_inputbg c_b"> <label class="labelbox c_b"> <input class="item_account" autocomplete="off" type="text" id="username" name="username" placeholder="Email or mobile number">  </label> <label class="labelbox pwd_panel c_b"> <input class="item_account" type="password" placeholder="Password" autocomplete="off" id="password" name="password"> </label> </div>
+                                        <div class="n_checked">  
+                                        <input id="remember" name="remember" value="1" type="checkbox" /> 
+                                        <label for="remember"> <span></span>Remember me<ins><i>Remember me</i></ins></label>
+                                        </div>
+                                        <div class="err_tip">
+                                            <div><em class="icon_error"></em><span id="msg-error-text" class="error-con"></span></div>
+                                        </div>
+                                        <div class="btns_bg"> 
+                                        <input type="hidden" name="act" value="act_login" />
+                                        <input type="hidden" name="back_act" value="{$back_act}" />
+                                        <input class="btnadpt btn_orange" type="submit" id="loginsubmit" value="Sign in"> 
+                                        <span class="sns-default-container sns_default_container">{$facebook}
+                                            </span>
+                                        </div>
+                                        <div class="other_panel clearfix">
+                                            <div class="reverse">
+                                                <div class="n_links_area"> <a class="outer-link" href="user/register">Create Account</a><span>|</span> <a class="outer-link" href="user/get_password">Forgot password?</a> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="n-footer">
+        <div class="nf-link-area clearfix">
+            <ul class="footer-login-links">
+            <li><a href="http://www.justin.pk/support">Customer Support</a>|</li>
+            <li><a href="http://www.justin.pk/support/shipping"><em></em>Shipping FAQ</a>|</li>
+            <li><a href="http://www.justin.pk/support/warranty">Warranty</a></li>
+            </ul>
+        </div>
+        <p class="nf-intro">Tronsmart Pakistan., All rights reserved</p>
+    </div>
+</div>
+<!--{/if}--> 
+<!--#Login interface end--> 
+
+<!--*Member registration interface start--> 
+<!--{if $action eq 'register'}--> 
+<!-- {if $shop_reg_closed eq 1} -->
+<div class="usBox">
+  <div class="usBox_2 clearfix">
+    <div class="f1 f5" align="center">{$lang.shop_register_closed}</div>
+  </div>
+</div>
+<!-- {else} --> 
+{insert_scripts files='user.js?810242.js'}
+<div class="xiaomi-store-register">
+    <div class="register-wrap">
+        <div class="register-layout">
+        <form action="user.php" method="post" name="formUser" onsubmit="return register();">
+         <input type="hidden" value="C4E1AB9A7DE79D7C750E8916875E7DBE" id="validate">
+          <input type="hidden" id="sendtype">
+            <div class="device-frame">
+                <div class="external_logo_area"><a class="milogo" href="http://www.justin.pk"></a></div>
+                <div class="title-item">
+                    <h4 class="title_big30">Create Tronsmart Account </h4>
+                </div>
+                <div>
+                    <div class="regbox">
+                        <div class="email_step1 emailregbox">
+                            <!-- {foreach from=$extend_info_list item=field} -->
+                            <!-- {if $field.reg_field_name=='Mobile'} -->
+                            <h4 class="tit_normal">Mobile</h4>
+                            <div class="inputbg mobile_number"> <label class="labelbox" for=""> <input class="item_register" type="text" placeholder="Enter mobile number" onblur="checkMobilePhone(this.value);" onkeyup="checkMobilePhone(this.value);" id="extend_field{$field.id}" name="extend_field{$field.id}"> </label> </div>
+                            <div id="mobile_notice" class="err_tip">
+                                <div class="dis_box"><em class="icon_error"></em><span id="mobile_notice_text"></span></div>
+                            </div>
+                            <!-- {/if} --> 
+                            <!-- {/foreach} --> 
+                            
+                            <h4 class="tit_normal">Email</h4>
+                            <div class="inputbg email_address"> <label class="labelbox" for=""> <input type="text" class="item_register" id="email" onblur="checkEmail(this.value);" onkeyup="checkEmail(this.value);" placeholder="Enter email address " name="email"> </label> </div>
+                            <div id="email_notice" class="err_tip">
+                                <div class="dis_box"><em class="icon_error"></em><span id="email_notice_text"></span></div>
+                            </div>
+                            
+                            <h4 class="tit_normal">Password</h4>
+                            <div class="inputbg main_password"> <label class="labelbox" for=""> <input type="password" name="password" id="password1" onblur="check_password(this.value);" onkeyup="check_password(this.value);" placeholder="Enter your password"> </label> </div>
+                            <div id="password_notice" class="err_tip">
+                                <div class="dis_box"><em class="icon_error"></em><span id="password_notice_text"></span></div>
+                            </div>
+                            
+                            <h4 class="tit_normal">Confirm Password</h4>
+                            <div class="inputbg confirm_password"> <label class="labelbox" for=""> <input type="password" name="confirm_password" id="conform_password" onblur="check_conform_password(this.value);" onkeyup="check_conform_password(this.value);" placeholder="Confirm your password"> </label> </div>
+                            <div id="confirm_password" class="err_tip">
+                                <div class="dis_box"><em class="icon_error"></em><span id="confirm_password_text"></span></div>
+                            </div>
+                            
+                            <div class="n_checked">  
+                                        <input id="agreement" name="agreement" value="1" type="checkbox" checked="checked"> 
+                                        <label for="agreement"> <span></span><p class="msg">By creating an account you are agreeing to our User Agreement and Privacy Policy</p></label>
+                                        </div>
+                            <div class="fixed_bot"> 
+                            <input name="act" type="hidden" value="act_register" >
+                            <input type="hidden" name="back_act" value="{$back_act}" />
+                            <input class="btn332 btn_reg_1 submit-step" type="submit" name="Submit" value="Create Account">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="register-footer">
+    <div class="nf-link-area clearfix">
+        <ul>
+            <li><a href="http://www.justin.pk/support">Customer Support</a>|</li>
+            <li><a href="http://www.justin.pk/support/shipping"><em></em>Shipping FAQ</a>|</li>
+            <li><a href="http://www.justin.pk/support/warranty">Warranty</a></li>
+        </ul>
+    </div>
+    <p class="nf-intro"><span>Tronsmart Pakistan., All rights reserved</span></p>
+</div>
+<!--{/if}--> 
+<!--{/if}--> 
+<!--#Member registration interface end--> 
+
+<!--*Retrieve password interface --> 
+<!--{if $action eq 'get_password'} --> 
+{insert_scripts files='utils.js,user.js?810242.js'}
+<script type="text/javascript">
+{foreach from=$lang.password_js item=item key=key}
+  var {$key} = "{$item}";
+{/foreach}
+</script>
+
+<div class="xiaomi-store-register">
+    <div class="register-wrap">
+        <div class="register-layout">
+        <form action="user.php" method="post" name="getPassword" onsubmit="return submitPwdInfo();">
+            <div class="device-frame">
+                <div class="external_logo_area"><a class="milogo" href="http://www.justin.pk"></a></div>
+                <div class="title-item">
+                    <h4 class="title_big30">Reset password </h4>
+                </div>
+                <div>
+                    <div class="regbox">
+                        <div class="email_step1 emailregbox">
+                            <h5 class="n_tit_msg">Enter email</h5>
+                            <div class="inputbg recovery_email"> <label class="labelbox" for=""> <input type="text" class="item_register" id="email" onblur="checkRecoveryEmail(this.value);" onkeyup="checkRecoveryEmail(this.value);" placeholder="Enter your email" name="email"> </label> </div>
+                            <div id="recovery_notice" class="err_tip">
+                                <div class="dis_box"><em class="icon_error"></em><span id="recovery_notice_text"></span></div>
+                            </div>
+                            <div class="recovery_tips">Enter the email you use to log in. We will email you a link to a page where you can create a new password.</div>
+                            <div class="fixed_bot"> 
+                            <input type="hidden" name="act" value="send_pwd_email" />
+                            <input class="btn332 btn_reg_1 submit-step" type="submit" name="Submit" value="Next">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="register-footer">
+    <div class="nf-link-area clearfix">
+        <ul>
+            <li><a href="http://www.justin.pk/support">Customer Support</a>|</li>
+            <li><a href="http://www.justin.pk/support/shipping"><em></em>Shipping FAQ</a>|</li>
+            <li><a href="http://www.justin.pk/support/warranty">Warranty</a></li>
+        </ul>
+    </div>
+    <p class="nf-intro"><span>Tronsmart Pakistan., All rights reserved</span></p>
+</div>
+
+
+<!--{/if}--> 
+
+    <!--{if $action eq 'mpassword_name'} -->
+    {insert_scripts files='utils.js'}
+    <script type="text/javascript">
+    {foreach from=$lang.password_js item=item key=key}
+      var {$key} = "{$item}";
+    {/foreach}
+    </script>
+<div class="usBox">
+  <div class="usBox_2 clearfix">
+    <form action="user.php" method="post" name="getPasswordByMobile" onsubmit="return submitPwdMobileInfo();">
+        <br />
+        <table width="70%" border="0" align="center">
+          <tr>
+            <td colspan="2" align="center"><strong>{$lang.username_and_mobile}</strong></td>
+          </tr>
+          <tr>
+            <td width="29%" align="right">{$lang.username}</td>
+            <td width="61%"><input name="user_name" type="text" size="30" class="inputBg" maxlength="14" /></td>
+          </tr>
+          <tr>
+            <td align="right">{$lang.mobile}</td>
+            <td><input name="mobile" type="text" size="30" class="inputBg" maxlength="12" /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="hidden" name="act" value="send_pwd_mobile" />
+              <input type="submit" name="submit" value="{$lang.submit}" class="bnt_blue" style="border:none;" />
+              <input name="button" type="button" onclick="history.back()" value="{$lang.back_page_up}" style="border:none;" class="bnt_blue_1" />
+	    </td>
+          </tr>
+        </table>
+        <br />
+      </form>
+  </div>
+</div>
+<!--{/if}-->
+
+<!--*Through the problem to find the password to confirm the recovery account interface --> 
+<!--{if $action eq 'qpassword_name'} -->
+
+<div class="usBox">
+  <div class="usBox_2 clearfix">
+    <form action="user.php" method="post">
+      <br />
+      <table width="70%" border="0" align="center">
+        <tr>
+          <td colspan="2" align="center"><strong>{$lang.get_question_username}</strong></td>
+        </tr>
+        <tr>
+          <td width="29%" align="right">{$lang.username}</td>
+          <td width="61%"><input name="user_name" type="text" size="30" class="inputBg" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="hidden" name="act" value="get_passwd_question" />
+            <input type="submit" name="submit" value="{$lang.submit}" class="bnt_blue" style="border:none;" />
+            <input name="button" type="button" onclick="history.back()" value="{$lang.back_page_up}" style="border:none;" class="bnt_blue_1" /></td>
+        </tr>
+      </table>
+      <br />
+    </form>
+  </div>
+</div>
+<!--{/if}--> 
+
+<!--*According to the input account shows the password problem interface --> 
+<!--{if $action eq 'get_passwd_question'} -->
+
+<div class="usBox">
+  <div class="usBox_2 clearfix">
+    <form action="user.php" method="post">
+      <br />
+      <table width="70%" border="0" align="center">
+        <tr>
+          <td colspan="2" align="center"><strong>{$lang.input_answer}</strong></td>
+        </tr>
+        <tr>
+          <td width="29%" align="right">{$lang.passwd_question}：</td>
+          <td width="61%">{$passwd_question}</td>
+        </tr>
+        <tr>
+          <td align="right">{$lang.passwd_answer}：</td>
+          <td><input name="passwd_answer" type="text" size="20" class="inputBg" /></td>
+        </tr>
+        <!-- Determine whether to enable verification code {if $enabled_captcha} -->
+        <tr>
+          <td align="right">{$lang.comment_captcha}</td>
+          <td><input type="text" size="8" name="captcha" class="inputBg" />
+            <img src="captcha.php?is_login=1&{$rand}" alt="captcha" style="vertical-align: middle;cursor: pointer;" onClick="this.src='captcha.php?is_login=1&'+Math.random()" /></td>
+        </tr>
+        <!--{/if}-->
+        <tr>
+          <td></td>
+          <td><input type="hidden" name="act" value="check_answer" />
+            <input type="submit" name="submit" value="{$lang.submit}" class="bnt_blue" style="border:none;" />
+            <input name="button" type="button" onclick="history.back()" value="{$lang.back_page_up}" style="border:none;" class="bnt_blue_1" /></td>
+        </tr>
+      </table>
+      <br />
+    </form>
+  </div>
+</div>
+<!--{/if}--> 
+
+<!-- {if $action eq 'reset_password'} --> 
+<script type="text/javascript">
+{foreach from=$lang.password_js item=item key=key}
+  var {$key} = "{$item}";
+{/foreach}
+</script>
+{insert_scripts files='user.js?810242.js'}
+<div class="xiaomi-store-register">
+    <div class="register-wrap">
+        <div class="register-layout">
+        <form action="user.php" method="post" name="getPassword2" onSubmit="return submitPwd()">
+            <div class="device-frame">
+                <div class="external_logo_area"><a class="milogo" href="http://www.justin.pk"></a></div>
+                <div class="title-item">
+                    <h4 class="title_big30">Reset password </h4>
+                </div>
+                <div>
+                    <div class="regbox">
+                        <div class="email_step1 emailregbox">
+                            <h5 class="n_tit_msg">Reset your account password</h5>
+                            <div class="inputbg recovery_password_new"> <label class="labelbox" for=""> <input type="password" class="item_register" id="new_password" onblur="check_recovery_password(this.value);" onkeyup="check_recovery_password(this.value);" placeholder="Please enter your new password" name="new_password"> </label> </div>
+                            <div id="recovery_password_notice" class="err_tip">
+                                <div class="dis_box"><em class="icon_error"></em><span id="recovery_password_notice_text"></span></div>
+                            </div>
+                            
+                            <div class="inputbg recovery_password_confirm_new"> <label class="labelbox" for=""> <input type="password" class="item_register" id="confirm_password" onblur="check_recovery_conform_password(this.value);" onkeyup="check_recovery_conform_password(this.value);" placeholder="Re-enter password" name="confirm_password"> </label> </div>
+                            <div id="recovery_confirm_password_notice" class="err_tip">
+                                <div class="dis_box"><em class="icon_error"></em><span id="recovery_confirm_password_notice_text"></span></div>
+                            </div>
+                            <div class="recovery_tips">Password must be 6-16 characters.</div>
+                            <div class="fixed_bot"> 
+                            <input type="hidden" name="act" value="act_edit_password" />
+                            <input type="hidden" name="uid" value="{$uid}" />
+                            <input type="hidden" name="code" value="{$code}" />
+                            <input class="btn332 btn_reg_1 submit-step" type="submit" name="Submit" value="Submit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="register-footer">
+    <div class="nf-link-area clearfix">
+        <ul>
+            <li><a href="http://www.justin.pk/support">Customer Support</a>|</li>
+            <li><a href="http://www.justin.pk/support/shipping"><em></em>Shipping FAQ</a>|</li>
+            <li><a href="http://www.justin.pk/support/warranty">Warranty</a></li>
+        </ul>
+    </div>
+    <p class="nf-intro"><span>Tronsmart Pakistan., All rights reserved</span></p>
+</div>    
+    
+<!--{/if}--> 
+<!--#Retrieve password interface end--> 
+<!-- #BeginLibraryItem "/library/page_footer_login.lbi" --> <!-- #EndLibraryItem -->
+</body>
+<script type="text/javascript">
+{foreach from=$lang.passport_js item=item key=key}
+var {$key} = "{$item}";
+{/foreach}
+var username_exist = "{$lang.username_exist}";
+</script>
+</html>

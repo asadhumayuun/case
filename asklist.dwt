@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml" fb="http://ogp.me/ns/fb#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="canonical" href="http://www.justin.pk/{$define_url}.html" />
+<meta name="Keywords" content="{$keywords}" />
+<!-- Schema.org markup for Google+ & Linkedin -->
+<meta itemprop="name" content="{$goods.goods_style_name}">
+<meta itemprop="description" content="{$description}">
+<meta itemprop="image" content="http://www.justin.pk/{$pictures.0.img_url}">
+<!-- Open Graph data -->
+<meta property="og:type" content="product"/>
+<meta property="og:title" content="{$goods.goods_style_name}"/>
+<meta property="og:description" content="{$description}"/>
+<meta property="og:image" content="http://www.justin.pk/{$pictures.0.img_url}"/>
+<meta property="og:url" content="{$ecs_url}"/>
+<meta property="og:site_name" content="Xiaomi Store Pakistan"/>
+<meta property="fb:app_id" content="1563914676986739"/>
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="always">
+<meta name="Description" content="{$goods_description}" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>{$goods.goods_style_name} Product Questions - Xiaomi Store Pakistan</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="themes/tronsmart/html.css?ver=1.1" rel="stylesheet" type="text/css" />
+<link href="themes/tronsmart/layout.css?ver=1.1" rel="stylesheet" type="text/css" />
+<link href="themes/tronsmart/css/goods-question-list.css?ver=3.1" rel="stylesheet" type="text/css" />
+<link href="css/tronsmart_alerts.css" rel="stylesheet" type="text/css" />
+<link href="themes/tronsmart/css/image-popup.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.9.1.min.js" ></script>
+{* Contains Script Diles *}
+{insert_scripts files='common.js,tronsmart_alerts.js,lazyload.transpiled.min.js,image-popup.js'}
+<script type="text/javascript">
+function $id(element) {
+  return document.getElementById(element);
+}
+//Cut the screen - is the button, _v is the content platform, _h is the content library
+function reg(str){
+  var bt=$id(str+"_b").getElementsByTagName("h2");
+  for(var i=0;i<bt.length;i++){
+    bt[i].subj=str;
+    bt[i].pai=i;
+    bt[i].style.cursor="pointer";
+    bt[i].onclick=function(){
+      $id(this.subj+"_v").innerHTML=$id(this.subj+"_h").getElementsByTagName("blockquote")[this.pai].innerHTML;
+      for(var j=0;j<$id(this.subj+"_b").getElementsByTagName("h2").length;j++){
+        var _bt=$id(this.subj+"_b").getElementsByTagName("h2")[j];
+        var ison=j==this.pai;
+        _bt.className=(ison?"":"h2bg");
+      }
+    }
+  }
+  $id(str+"_h").className="none";
+  $id(str+"_v").innerHTML=$id(str+"_h").getElementsByTagName("blockquote")[0].innerHTML;
+}
+
+</script>
+</head>
+<body>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->{insert_scripts files='magiczoomplus.js,easydialog.min.js,xiaomi_goods.js,utils.js'}
+<!-- #BeginLibraryItem "/library/ur_here_goods.lbi" --><!-- #EndLibraryItem --> 
+<div class="goods-question">
+    <div class="container">
+        <div class="row">
+            <div id="ECS_QUESTION">{insert name='question1' id=$id}</div>
+            <div class="span6 goods-detail-info-block">
+                <div class="goods-detail-info">
+                    <div class="goods-img-block">
+                        <a href="http://www.justin.pk/{$goods.define_url}.html"> <img src="{$pictures.0.img_url}" class="J_cartBigImg" alt=""> </a>
+                    </div>
+                    <div class="goods-name J_cartGoodsName">{$goods.goods_style_name}</div>
+                    <div class="goods-price"> <b>{$goods.shop_price_formated}</b></div>
+                </div>
+                <div class="goods-cart-btn-block"> <a href="http://www.justin.pk/{$goods.define_url}.html" class="btn btn-primary goods-add-cart-btn"><span class="iconfont"></span>View Details</a> </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Bulk Purchase Program - Tronsmart Pakistan</title>
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+<meta name="Keywords" content="{$keywords}" />
+<meta name="Description" content="{$description}" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
+<link href="common.css" rel="stylesheet" type="text/css" />
+<link href="corporatepurchase.css" rel="stylesheet" type="text/css" />
+{* Include script file *}
+{insert_scripts files='common.js'}
+</head>
+<body>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+
+
+
+<div class="bulkbuy-banner">
+    <div class="container">
+        <h1 class="title">Bulk Purchasing</h1>
+        <h1 class="title-second">Purchase and distribute products in volume & get exclusive saving and superior services</h1>
+        <p class="desc">Whether you have ten employees or ten thousand, or you
+            <br>are a retailer, the Bulk Purchase Program makes it simple,
+            <br>buy, and distribute products to meet your every business
+            <br>need and save cash.</p>
+    </div>
+</div>
+<div class="bulkbuy-background">
+    <div class="bulkbuy-step">
+        <div class="container">
+            <h1>BULK ORDERS, SIMPLIFIED IN 4 STEPS</h1>
+            <div class="box">
+                <div class="box-step step1">
+                    <span>01</span>
+                    <div class="text">Download
+                        <a href="data/mi-data/bulkpurchase-pk.xls">‘Application Form’</a>. Fill in your company details along with your bulk order requirement and email at wholesale@tronsmart.pk</div>
+                </div>
+                <div class="box-step step2">
+                    <span>02</span>
+                    <div class="text">Our team will review your order details and send you an update if your order can be processed or not</div>
+                </div>
+                <div class="box-step step3">
+                    <span>03</span>
+                    <div class="text">Once your bulk order is confirmed, you can complete 50% payment</div>
+                </div>
+                <div class="box-step step4">
+                    <span>04</span>
+                    <div class="text">On completion of payment you will receive updates on delivery timelines for your order</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bulkbuy-rules">
+        <h1>Exclusive benefits for Corporate Customers</h1>
+        <div class="bulkbuy-rules-text">
+            <p>
+                <font size="4">Bulk pricing &amp; bulk discounts</font>
+                <br>Business-only prices and bulk discounts on Tronsmart products</p>
+            <br>
+            <p>
+                <font size="4">Fast, reliable Shipping </font>
+                <br>Door to door services via our reliable delivery network</p>
+            <br>
+            <p>
+                <font size="4">18-month Warranty</font>
+                <br>Tronsmart Pakistan offers 18-month warranty with friendly and efficient customer service</p>
+            <br>
+            <p>
+                <font size="4">7-day replacement for damaged goods</font>
+                <br>Replace device at no additional cost if the device received by you is defective
+                <br>
+                <br>For any queries related to bulk orders, please call
+                <span class="contact"> 03 206 (649922) </span> or email us at:
+                <span class="contact">wholesale@tronsmart.pk</span>
+            </p>
+        </div>
+    </div>
+</div>
+  
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+</body>
+</html>

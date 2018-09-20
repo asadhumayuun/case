@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml" fb="http://ogp.me/ns/fb#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="canonical" href="http://www.justin.pk/new/" />
+<meta property="og:title" content="Mi new products in Pakistan"/>
+<meta property="og:description" content="Rock your world with new Mi products in Pakistan at best price on Xiaomi Store Pakistan with cash on delivery in Pakistan, Get to know about upcoming and newly arrived gadgets, Xiaomi Pakistan is the only reliable channel for Xiaomi original products in Pakistan"/>
+<meta property="og:image" content="http://www.justin.pk/data/catthumb/1499495798601994738.jpg"/>
+<meta property="og:url" content="http://www.justin.pk/new/"/>
+<meta property="og:site_name" content="Xiaomi Store Pakistan"/>
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="always">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>{$page_title}</title>
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+<meta name="Keywords" content="{$keywords}" />
+<meta name="Description" content="{$description}" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
+<link href="common.css" rel="stylesheet" type="text/css" />
+<link href="themes/tronsmart/css/new-products.css" rel="stylesheet" type="text/css" />
+{* Include script file *}
+{insert_scripts files='common.js'}
+</head>
+<body>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+<script type="text/javascript" src="themes/tronsmart/js/jquery.SuperSlide.2.1.2.js"></script>
+<div class="main-new-page">
+<!--Home Rotation strat-->
+<!-- #BeginLibraryItem "/library/new_products_ad.lbi" --><!-- #EndLibraryItem --> 
+<!--Home Rotation end-->
+
+<!-- {if $smart_devices} --> 
+<!--Smart Devices-->
+<div class="container channel-auto">
+    <div class="auto-row"> <span class="auto-cell-exposure"><h3 class="title">Smart Devices</h3></span> </div>
+</div>
+<div class="container channel-product channel-product-three">
+    <div class="row">
+        <!--{foreach from=$smart_devices item=goods}-->
+        <div class="span10 product-cell shadow">
+            <div class="figure">
+                <a class="exposure" href="{$goods.url}"> <img class="J_lazy" alt="{$goods.name|escape:html}"src="<!-- {if $goods.goods_thumb_mobile} --> {$goods.goods_thumb_mobile}<!--{else}-->{$goods.goods_img}<!--{/if}-->"> </a>
+            </div>
+            <h3 class="title"> <a class="exposure" href="{$goods.url}">{$goods.name|escape:html}</a> </h3>
+            <p class="desc">{$goods.brief}</p>
+            <p class="price"> <strong><!-- {if $goods.promote_price neq ""} -->{$goods.promote_price}<!-- {else}-->{$goods.shop_price}<!--{/if}--></strong></p>
+        </div>
+        <!--{/foreach}-->
+    </div>
+</div>
+<div class="container channel-line-sep"></div>
+<!--Smart Devices-->
+<!-- {/if} -->
+
+<!-- {if $audio_devices} --> 
+<!--Mi Audio Devices-->
+<div class="container channel-auto">
+    <div class="auto-row"> <span class="auto-cell-exposure"><h3 class="title">Mi Audio</h3></span> </div>
+</div>
+<div class="container channel-product channel-product-three">
+    <div class="row">
+        <!--{foreach from=$audio_devices item=goods}-->
+        <div class="span10 product-cell shadow">
+            <div class="figure">
+                <a class="exposure" href="{$goods.url}"> <img class="J_lazy" alt="{$goods.name|escape:html}"src="<!-- {if $goods.goods_thumb_mobile} --> {$goods.goods_thumb_mobile}<!--{else}-->{$goods.goods_img}<!--{/if}-->"> </a>
+            </div>
+            <h3 class="title"> <a class="exposure" href="{$goods.url}">{$goods.name|escape:html}</a> </h3>
+            <p class="desc">{$goods.brief}</p>
+            <p class="price"> <strong><!-- {if $goods.promote_price neq ""} -->{$goods.promote_price}<!-- {else}-->{$goods.shop_price}<!--{/if}--></strong></p>
+        </div>
+        <!--{/foreach}-->
+    </div>
+</div>
+<div class="container channel-line-sep"></div>
+<!--Mi Audio Devices-->
+<!-- {/if} -->
+
+<!-- {if $power_devices} --> 
+<!--Mi Power Devices-->
+<div class="container channel-auto">
+    <div class="auto-row"> <span class="auto-cell-exposure"><h3 class="title">Mi Power Devices</h3></span> </div>
+</div>
+<div class="container channel-product channel-product-three">
+    <div class="row">
+        <!--{foreach from=$power_devices item=goods}-->
+        <div class="span10 product-cell shadow">
+            <div class="figure">
+                <a class="exposure" href="{$goods.url}"> <img class="J_lazy" alt="{$goods.name|escape:html}"src="<!-- {if $goods.goods_thumb_mobile} --> {$goods.goods_thumb_mobile}<!--{else}-->{$goods.goods_img}<!--{/if}-->"> </a>
+            </div>
+            <h3 class="title"> <a class="exposure" href="{$goods.url}">{$goods.name|escape:html}</a> </h3>
+            <p class="desc">{$goods.brief}</p>
+            <p class="price"> <strong><!-- {if $goods.promote_price neq ""} -->{$goods.promote_price}<!-- {else}-->{$goods.shop_price}<!--{/if}--></strong></p>
+        </div>
+        <!--{/foreach}-->
+    </div>
+</div>
+<div class="container channel-line-sep"></div>
+<!--Mi Power Devices-->
+<!-- {/if} -->
+
+<!-- {if $mi_cameras} --> 
+<!--Mi Cameras-->
+<div class="container channel-auto">
+    <div class="auto-row"> <span class="auto-cell-exposure"><h3 class="title">Mi Cameras</h3></span> </div>
+</div>
+<div class="container channel-product channel-product-three">
+    <div class="row">
+        <!--{foreach from=$mi_cameras item=goods}-->
+        <div class="span10 product-cell shadow">
+            <div class="figure">
+                <a class="exposure" href="{$goods.url}"> <img class="J_lazy" alt="{$goods.name|escape:html}"src="<!-- {if $goods.goods_thumb_mobile} --> {$goods.goods_thumb_mobile}<!--{else}-->{$goods.goods_img}<!--{/if}-->"> </a>
+            </div>
+            <h3 class="title"> <a class="exposure" href="{$goods.url}">{$goods.name|escape:html}</a> </h3>
+            <p class="desc">{$goods.brief}</p>
+            <p class="price"> <strong><!-- {if $goods.promote_price neq ""} -->{$goods.promote_price}<!-- {else}-->{$goods.shop_price}<!--{/if}--></strong></p>
+        </div>
+        <!--{/foreach}-->
+    </div>
+</div>
+<div class="container channel-line-sep"></div>
+<!--Mi Cameras-->
+<!-- {/if} -->
+
+<!-- {if $mi_wifi} --> 
+<!--Mi WiFi-->
+<div class="container channel-auto">
+    <div class="auto-row"> <span class="auto-cell-exposure"><h3 class="title">Mi WiFi</h3></span> </div>
+</div>
+<div class="container channel-product channel-product-three">
+    <div class="row">
+        <!--{foreach from=$mi_wifi item=goods}-->
+        <div class="span10 product-cell shadow">
+            <div class="figure">
+                <a class="exposure" href="{$goods.url}"> <img class="J_lazy" alt="{$goods.name|escape:html}"src="<!-- {if $goods.goods_thumb_mobile} --> {$goods.goods_thumb_mobile}<!--{else}-->{$goods.goods_img}<!--{/if}-->"> </a>
+            </div>
+            <h3 class="title"> <a class="exposure" href="{$goods.url}">{$goods.name|escape:html}</a> </h3>
+            <p class="desc">{$goods.brief}</p>
+            <p class="price"> <strong><!-- {if $goods.promote_price neq ""} -->{$goods.promote_price}<!-- {else}-->{$goods.shop_price}<!--{/if}--></strong></p>
+        </div>
+        <!--{/foreach}-->
+    </div>
+</div>
+<div class="container channel-line-sep"></div>
+<!--Mi WiFi-->
+<!-- {/if} -->
+
+<!-- {if $smart_home} --> 
+<!--Mi Smart Home-->
+<div class="container channel-auto">
+    <div class="auto-row"> <span class="auto-cell-exposure"><h3 class="title">Mi Smart Home</h3></span> </div>
+</div>
+<div class="container channel-product channel-product-three">
+    <div class="row">
+        <!--{foreach from=$smart_home item=goods}-->
+        <div class="span10 product-cell shadow">
+            <div class="figure">
+                <a class="exposure" href="{$goods.url}"> <img class="J_lazy" alt="{$goods.name|escape:html}" src="<!-- {if $goods.goods_thumb_mobile} --> {$goods.goods_thumb_mobile}<!--{else}-->{$goods.goods_img}<!--{/if}-->"> </a>
+            </div>
+            <h3 class="title"> <a class="exposure" href="{$goods.url}">{$goods.name|escape:html}</a> </h3>
+            <p class="desc">{$goods.brief}</p>
+            <p class="price"> <strong><!-- {if $goods.promote_price neq ""} -->{$goods.promote_price}<!-- {else}-->{$goods.shop_price}<!--{/if}--></strong></p>
+        </div>
+        <!--{/foreach}-->
+    </div>
+</div>
+<div class="container channel-line-sep"></div>
+<!--Mi Smart Home-->
+<!-- {/if} -->
+
+<!-- {if $life_style} --> 
+<!--Mi Lifestyle-->
+<div class="container channel-auto">
+    <div class="auto-row"> <span class="auto-cell-exposure"><h3 class="title">Mi Lifestyle</h3></span> </div>
+</div>
+<div class="container channel-product channel-product-three">
+    <div class="row">
+        <!--{foreach from=$life_style item=goods}-->
+        <div class="span10 product-cell shadow">
+            <div class="figure">
+                <a class="exposure" href="{$goods.url}"> <img class="J_lazy" alt="{$goods.name|escape:html}"src="<!-- {if $goods.goods_thumb_mobile} --> {$goods.goods_thumb_mobile}<!--{else}-->{$goods.goods_img}<!--{/if}-->"> </a>
+            </div>
+            <h3 class="title"> <a class="exposure" href="{$goods.url}">{$goods.name|escape:html}</a> </h3>
+            <p class="desc">{$goods.brief}</p>
+            <p class="price"> <strong><!-- {if $goods.promote_price neq ""} -->{$goods.promote_price}<!-- {else}-->{$goods.shop_price}<!--{/if}--></strong></p>
+        </div>
+        <!--{/foreach}-->
+    </div>
+</div>
+<div class="container channel-line-sep"></div>
+<!--Mi Lifestyle-->
+<!-- {/if} -->
+
+<!-- {if $cover_protector} --> 
+<!--Covers & Protectors-->
+<div class="container channel-auto">
+    <div class="auto-row"> <span class="auto-cell-exposure"><h3 class="title">Covers & Protectors</h3></span> </div>
+</div>
+<div class="container channel-product channel-product-three">
+    <div class="row">
+        <!--{foreach from=$cover_protector item=goods}-->
+        <div class="span10 product-cell shadow">
+            <div class="figure">
+                <a class="exposure" href="{$goods.url}"> <img class="J_lazy" alt="{$goods.name|escape:html}"src="<!-- {if $goods.goods_thumb_mobile} --> {$goods.goods_thumb_mobile}<!--{else}-->{$goods.goods_img}<!--{/if}-->"> </a>
+            </div>
+            <h3 class="title"> <a class="exposure" href="{$goods.url}">{$goods.name|escape:html}</a> </h3>
+            <p class="desc">{$goods.brief}</p>
+            <p class="price"> <strong><!-- {if $goods.promote_price neq ""} -->{$goods.promote_price}<!-- {else}-->{$goods.shop_price}<!--{/if}--></strong></p>
+        </div>
+        <!--{/foreach}-->
+    </div>
+</div>
+<div class="container channel-line-sep"></div>
+<!--Covers & Protectors-->
+<!-- {/if} -->
+
+<!--New Products Email Start-->
+<!-- #BeginLibraryItem "/library/new_products_email.lbi" --><!-- #EndLibraryItem -->
+<!--New Products Email End-->
+<div class="container channel-line-sep"></div>
+</div>
+<script type="text/javascript">
+	jQuery(".new-products-slide").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"leftLoop", vis:"auto", autoPlay:true, autoPage:true, trigger:"click" });
+</script>
+
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+</div>
+</body>
+</html>

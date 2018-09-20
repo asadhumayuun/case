@@ -1,0 +1,145 @@
+.bulkbuy-background {
+    background-color: #f5f5f5;
+    padding-bottom: 100px;
+}
+.bulkbuy-banner {
+    height: 510px;
+    padding-top: 130px;
+    text-align: center;
+    background: url(images/bulk-buy.jpg) no-repeat 50% 0;
+    color: #fff;
+}
+.bulkbuy-banner .title {
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: 300;
+}
+.bulkbuy-banner .title-second {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.bulkbuy-banner .desc {
+    width: 655px;
+    height: 100px;
+    padding: 40px 50px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: rgba(255,255,255,.08);
+    border-radius: 10px;
+}
+.bulkbuy-step {
+    width: 100%;
+    min-width: 1226px;
+    background: #fff;
+    margin-top: 26px;
+}
+.bulkbuy-step .container h1 {
+    color: #212121;
+    text-align: center;
+    line-height: 1;
+	font-weight: 400;
+    margin: 60px 0 40px 0;
+}
+.bulkbuy-step .container .box {
+    width: 100%;
+    margin: 60px 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+.bulkbuy-step .container .box .box-step {
+    width: 290px;
+    height: 180px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    position: relative;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+.bulkbuy-step .container .box .step1 {
+    border-color: #382e83;
+    color: #382e83;
+}
+.bulkbuy-step .container .box .step1 a {
+    font-weight: 600;
+    color: #000000;
+}
+.bulkbuy-step .container .box .step2 {
+    border-color: #8bc34a;
+    color: #8bc34a;
+}
+.bulkbuy-step .container .box .step3 {
+    border-color: #4598f4;
+    color: #4598f4;
+}
+.bulkbuy-step .container .box .step4 {
+    border-color: #a26af6;
+    color: #a26af6;
+}
+.bulkbuy-step .container .box .box-step span {
+    display: block;
+    width: 88px;
+    background-color: #fff;
+    height: 36px;
+    font-size: 50px;
+    font-weight: 300;
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    margin-left: -44px;
+    text-align: center;
+    line-height: 36px;
+}
+.bulkbuy-step .container .box .box-step .text {
+    text-align: center;
+    padding: 0 27px;
+}
+.bulkbuy-rules {
+    margin-top: 40px;
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,.15) 0 13px 24px;
+}
+.bulkbuy-rules h1 {
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #382e83;
+    line-height: 80px;
+    font-weight: 400;
+    margin: 0;
+    position: relative;
+}
+.bulkbuy-rules h1:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 80px;
+    left: 760px;
+    border-style: solid;
+    border-width: 35px 65px 0 65px;
+    border-color: #fff transparent transparent transparent;
+    border-top-color: #392f82;
+}
+.bulkbuy-rules .bulkbuy-rules-text {
+    padding: 40px 0 80px 60px;
+}
+.bulkbuy-rules .bulkbuy-rules-text p {
+    margin: 0;
+}
+.bulkbuy-rules .bulkbuy-rules-text p .contact {
+    color: #382e83;
+}

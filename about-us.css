@@ -1,0 +1,340 @@
+.breadcrumbs {
+    background: #f7f7f7;
+}
+.abtus-banner {
+    height: 530px;
+    width: 100%;
+    display: table;
+    background: url(images/about_big_bg.jpg) center center no-repeat;
+    background-size: auto auto;
+}
+.abtus-menu, .abtus-menu2 {
+    height: 72px;
+    text-align: center;
+    background: #f7f7f7;
+    width: 100%;
+}
+.abtus-menu2.show {
+    display: block;
+}
+.abtus-menu a.now, .abtus-menu2 a.now {
+    color: #fff;
+    background: #392f82;
+}
+.abtus-menu a, .abtus-menu2 a {
+    display: inline-block;
+    height: 72px;
+    font-size: 14px;
+    color: #999;
+    line-height: 72px;
+    padding: 0 30px;
+    margin: 0 5px;
+}
+.abtus-menu2 {
+    position: fixed;
+    z-index: 10;
+    display: none;
+    left: 0;
+    top: 0;
+}
+.abtus-introduction {
+    padding: 60px 0 0;
+    text-align: center;
+}
+.abtus-introduction h2 {
+    font-size: 24px;
+    font-weight: 400;
+    height: 54px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+}
+.abtus-introduction h2:after,.abtus-introduction ul li:after {
+    display: block;
+    content: "\00a0";
+    overflow: hidden;
+    height: 0;
+    border-bottom: 1px solid #392f82;
+}
+.abtus-introduction h2:after {
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+}
+.abtus-introduction div {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+.abtus-story {
+    height: 200px;
+    background: url(images/about_tronsmart.jpg) center no-repeat;
+    margin-top: -15px !important;
+    background-size: 500px;
+    position: relative;
+}
+.abtus-introduction p.tronsmart-story {
+    width: 850px;
+    font-size: 14px;
+    color: #999;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 auto;
+}
+.abtus-introduction .abtus-map1 {
+    max-width: 1126px;
+    width: 100%;
+    display: block;
+    margin: 40px auto;
+}
+.abtus-introduction ul {
+    max-width: 1126px;
+    width: 100%;
+    margin: 0 auto;
+}
+.abtus-introduction ul li {
+    width: 33.3%;
+    font-size: 14px;
+    color: #828282;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: left;
+    float: left;
+    position: relative;
+    padding-top: 24px;
+}
+.abtus-introduction ul li:after {
+    width: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.abtus-introduction .about-img-gleam {
+    height: 715px;
+    width: 100%;
+    display: table;
+    background: url(images/about_gleam.jpg) center left no-repeat;
+    background-size: auto auto;
+}
+
+.abtus-culture h2 {
+    height: 172px;
+    background: #392f82;
+    position: relative;
+    margin-bottom: 50px;
+}
+.abtus-culture h2 span {
+    font-size: 24px;
+    color: #fff;
+    line-height: 1em;
+    font-weight: 400;
+    height: 54px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    margin-top: -27px;
+}
+.abtus-culture h2 span:after {
+    content: "\00a0";
+    display: block;
+    height: 0;
+    width: 30px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    bottom: 0;
+    border-bottom: 1px solid #fff;
+}
+.abtus-culture .abtus-culture-ul1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 50px;
+}
+.abtus-culture .abtus-culture-ul1 li {
+    background: #fff;
+    width: 50%;
+    float: left;
+}
+.abtus-culture .abtus-culture-ul1 li h4 {
+    font-size: 20px;
+    color: #333;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 400;
+}
+.abtus-culture .abtus-culture-ul1 li img {
+    width: 230px;
+    display: block;
+    margin: 24px auto 50px;
+}
+.abtus-culture .abtus-culture-ul1 li h5, .abtus-culture .abtus-culture-ul1 li p {
+    width: 86.66667%;
+    padding: 0 6.66667%;
+    font-size: 14px;
+    color: #999;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.abtus-culture .abtus-culture-ul1 li h5 {
+    color: #666;
+    font-weight: 400;
+    font-size: 16px;
+}
+.abtus-culture-article {
+    padding: 50px 0;
+    background: #f7f7f7;
+    width: 100%;
+}
+.abtus-culture-article h4 {
+    width: 360px;
+    margin: 0 auto 60px;
+    font-size: 20px;
+    color: #333;
+    line-height: 1em;
+    font-weight: 400;
+    text-align: center;
+}
+.abtus-culture-article h4 img {
+    width: 100%;
+    display: block;
+    margin-top: 24px;
+    left: 0;
+    bottom: 0;
+}
+.abtus-culture-article ul {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.abtus-culture-article ul li {
+    width: 33.3%;
+    float: left;
+}
+.abtus-culture-article ul li div {
+    border: 6px solid #f5f5f5;
+    background: #fff;
+    padding: 30px;
+    height: 180px;
+}
+.abtus-culture-article ul li h5 {
+    font-size: 16px;
+    color: #666;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.abtus-culture-article ul li p {
+    font-size: 14px;
+    color: #999;
+    line-height: 28px;
+    padding-top: 20px;
+    position: relative;
+}
+.abtus-culture-article ul li p:after {
+    content: "\00a0";
+    display: block;
+    height: 0;
+    width: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid #999;
+}
+.abtus-contact .left {
+    height: 0;
+    width: 50%;
+    padding-top: 24.60938%;
+    overflow: hidden;
+    position: relative;
+    background: #413387;
+    float: left;
+}
+.abtus-contact .left img {
+    width: 37.5%;
+    max-width: 480px;
+    position: absolute;
+    top: 12.69841%;
+    right: 8.90625%;
+}
+.abtus-contact .left span {
+    position: absolute;
+    bottom: 13.49206%;
+    right: 17.1875%;
+    display: block;
+}
+.abtus-contact .left span h4 {
+    font-size: 24px;
+    color: #fff;
+    line-height: 28px;
+    font-weight: 400;
+    height: 54px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.abtus-contact .left span p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 28px;
+}
+.abtus-contact-list {
+    clear: both;
+    background: #fff;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.abtus-contact-list ul {
+    width: 100%;
+    float: left;
+    margin: 0 auto 50px;
+}
+.abtus-contact-list li {
+    width: 25%;
+    padding-left: 2%;
+    float: left;
+    margin: 0 auto 50px;
+}
+.abtus-contact-list li h5 {
+    font-size: 15px;
+    color: #666;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.abtus-contact-list li p, .abtus-contact-list li span {
+    font-size: 14px;
+    color: #999;
+    line-height: 28px;
+    padding-left: 24px;
+    display: block;
+    background-image: url(images/contact-icons.gif);
+    background-repeat: no-repeat;
+}
+.abtus-contact-list li span {
+    background-position: 0 -50px;
+}
+.abtus-contact-list li .name {
+    background-position: 0 6px;
+    height: 28px;
+}
+.abtus-contact-list li a {
+    color: #392f82;
+    height: 28px;
+}
+.abtus-contact-map {
+    width: 50%;
+    float: right;
+}
+.abtus-joinus {
+    height: 772px;
+    background: url(images/about_end.jpg) center no-repeat;
+    background-size: auto auto;
+    position: relative;
+}

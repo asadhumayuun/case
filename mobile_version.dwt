@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Mobile Version - Xiaomi Store Pakistan</title>
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+<meta name="Keywords" content="Xiaomi Store Pakistan Mobile Apps,Xiaomi Store Pakistan Android App.Xiaomi Store Pakistan App,Xiaomi Store Pakistan Online shopping app"/>
+<meta name="Description" content="Xiaomi Store Pakistan Mobile Version for Online Shopping  - Browse the Mobile version to enhance your online shopping experience on your Android, iPhone &amp; Windows Devices." />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
+<link href="common.css" rel="stylesheet" type="text/css" />
+<link href="themes/tronsmart/css/mobile-version.css?v=11192018" rel="stylesheet" type="text/css" />
+{* Contains Script Files *}
+{insert_scripts files='common.js,lazyload.transpiled.min.js'}
+</head>
+<body>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+
+<div class="mobile-wrap">
+    <div class="wrap-container">
+        <img class="mobile-bg" src="images/mobile_version.png">
+        <div class="mobile-info-list">
+            <h2 class="mobile-tit">Mobile Version!</h2>
+            <ul class="info-list cleaerfix">
+                <li class="list-item">
+                    <p class="d-price">Tronsmart Pakistan</p>
+                    <p class="d-info">Online shopping with Tronsmart Pakistan is very easy as you get to shop from the comfort of your home and get products delivered at your doorstep. By browsing the mobile site, you can effortlessly browse our massive collection of Tronsmart products.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="download-img">
+            <div class="img" id="qrcode" title="">
+                <div class="scan-line"></div>
+                <img alt="Scan me!" src="images/qr_code.png">
+            </div>
+            <p class="download-info">Scan the QR Code</p>
+        </div>
+    </div>
+</div>
+
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+</body>
+</html>

@@ -1,0 +1,786 @@
+#breadcrumb {
+	height: 35px;
+	line-height: 35px;
+	text-align: right;
+	overflow: hidden
+}
+#breadcrumb ul {
+	float: left
+}
+#breadcrumb ul li {
+	float: left
+}
+#breadcrumb ul li a {
+	float: left;
+	display: block;
+	margin: 0 4px
+}
+#breadcrumb ul li h1 {
+	font-size: 12px;
+	font-weight: 400
+}
+/*Customer Support Main Start*/
+.service-banner {
+    height: 400px;
+    width: 100%;
+    background: url(images/banner_large.jpg) center no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: table;
+}
+.service-banner div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.service-banner h2 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5em;
+    display: inline;
+}
+.service-nav {
+    background: #fff;
+}
+.service-nav .service-nav {
+    max-width: 1200px;
+    width: 100%;
+    min-width: 300px;
+    margin: auto;
+	padding-left: 3% !important;
+    padding-right: 3% !important;
+}
+.service-nav .support-text {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+    max-width: 830px;
+}
+.service-nav .support-text .support-text-center {
+    margin-bottom: 20px;
+    margin-top: 10%;
+}
+.service-nav .support-text h2 {
+    font-size: 32px;
+    color: #000000;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.service-nav .support-text p {
+    font-size: 17px;
+    margin: 0 0 10px;
+    line-height: 1.42857;
+    font-weight: 300;
+}
+.nserv-sub-nav {
+    padding: 60px 0 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nserv-sub-navlist {
+    width: 100%;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+.nserv-sub-navlist li {
+    float: left;
+    width: 15%;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.25s ease;
+}
+.nserv-sub-navlist li:hover {
+    background: #f8f8f8;
+    border-radius: 15px;
+}
+.nserv-sub-navlist li a {
+    display: inline-block;
+	transition: all 0.25s ease;
+}
+.nserv-sub-navlist li span {
+    display: block;
+    margin: 0 auto 10px;
+	height: 60px;
+    width: 60px;
+}
+.nserv-sub-navlist .li1 span {
+    background: url(images/support-new-icons.png);
+    background-position: 0px -4px;
+}
+.nserv-sub-navlist .li1:hover span {
+    background: url(images/support-new-icons.png);
+    background-position: 0px -64px;
+}
+.nserv-sub-navlist .li2 span {
+    background: url(images/support-new-icons.png);
+    background-position: 7px -124px;
+}
+.nserv-sub-navlist .li2:hover span {
+    background: url(images/support-new-icons.png);
+    background-position: 7px -184px;
+}
+.nserv-sub-navlist .li3 span {
+    background: url(images/support-new-icons.png);
+    background-position: 1px -244px;
+}
+.nserv-sub-navlist .li3:hover span {
+    background: url(images/support-new-icons.png);
+    background-position: 1px -304px;
+}
+.nserv-sub-navlist .li4 span {
+    background: url(images/support-new-icons.png);
+    background-position: 1px -370px;
+}
+.nserv-sub-navlist .li4:hover span {
+    background: url(images/support-new-icons.png);
+    background-position: 1px -430px;
+}
+.nserv-sub-navlist .li5 span {
+    background: url(images/support-new-icons.png);
+    background-position: 1px -498px;
+}
+.nserv-sub-navlist .li5:hover span {
+    background: url(images/support-new-icons.png);
+    background-position: 1px -558px;
+}
+.nserv-sub-navlist li h4 {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+}
+.nserv-sub-navlist li:hover h4 {
+    Color:#382e83;
+}
+.nserv-point {
+    height: 830px;
+    background: url(images/support-pc-bg.jpg) center no-repeat #f3f3f3;
+    background-size: cover;
+}
+.nserv-point-inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.nserv-point-inner h2 {
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    padding-bottom: 11px;
+    color: #000;
+    text-align: center;
+    position: relative;
+}
+.nserv-point-inner h2:before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 0;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -20px;
+}
+.nserv-point-inner h3 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    color: #10181f;
+}
+.nserv-point-inner .nserv-point-content .hotline-service, .nserv-point-inner .nserv-point-content .email-support {
+    margin-right: 7px;
+}
+.nserv-point-inner .nserv-point-content .email-support, .nserv-point-inner .nserv-point-content .chat-support {
+    margin-top: 7px;
+}
+.nserv-point-inner .nserv-point-content .tronsmart-support {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding-top: 20px;
+    height: 270px;
+    width: 49.7%;
+    float: left;
+    text-align: center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.nserv-point-inner .nserv-point-content h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.nserv-point-inner .nserv-point-content p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #999;
+    text-align: center;
+    height: 45px;
+    width: 85%;
+    max-width: 440px;
+    margin: 0 auto;
+}
+.nserv-point-inner .nserv-point-content img {
+    width: 56px;
+    display: block;
+    margin: 0 auto 25px;
+}
+.nserv-point-inner .nserv-point-content a.live-chat {
+    display: inline-block;
+    width: 158px;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #382e83;
+    color: #382e83;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.nserv-point-inner .nserv-point-content a.live-chat:hover {
+    color: #fff;
+    background-color: #382e83;
+    border-color: #382e83;
+}
+.nserv-point-inner .nserv-point-content .telephone-num {
+    font-size: 16px;
+    color: #382e83;
+    display: inline-block;
+    position: relative;
+}
+.nserv-point-inner .nserv-point-content .support-email {
+    font-size: 16px;
+    color: #382e83;
+    display: inline-block;
+    position: relative;
+}
+.nserv-point-inner .nserv-point-content .unofficial-channel {
+    border-left: 1px solid #dfdfdf;
+}
+/*Customer Support Main End*/
+
+
+/*Customer Support Text Area Start*/
+.tronsmart-support-page {
+    height: 368px;
+    background-image: url(images/bg-supportheader-tile.jpg);
+    background-repeat: repeat-x;
+}
+.tronsmart-support-page .support-background-60 {
+    background-image: url(images/bg-supportheader-image.jpg);
+	background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: auto 368px;
+    height: 368px;
+}
+.tronsmart-support-page .support-background-61 {
+    background-image: url(images/bg-supportheader-authorization.jpg);
+	background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: auto 368px;
+    height: 368px;
+}
+.tronsmart-support-page .support-background-54 {
+    background-image: url(images/bg-supportheader-shipping.jpg);
+	background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: auto 368px;
+    height: 368px;
+}
+.tronsmart-support-page .support-background-56 {
+    background-image: url(images/bg-supportheader-payment.jpg);
+	background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: auto 368px;
+    height: 368px;
+}
+.tronsmart-support-page .tronsmart-support-inner .tronsmart-support-container {
+    width: 960px;
+    padding-top: 54px;
+    color: #ffffff;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.tronsmart-support-page .support-breadcrumb a {
+    color: #ffffff;
+}
+.tronsmart-support-page .support-breadcrumb i {
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.tronsmart-support-page .tronsmart-support-inner .tronsmart-support-container h1 {
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 11px;
+}
+.tronsmart-support-page .tronsmart-support-inner .tronsmart-support-container h1:after {
+    display: table;
+    clear: both;
+    content: " ";
+}
+
+.support-page-main {
+    background-color: #f8f9fa;
+    padding-bottom: 100px;
+}
+.support-page-main .support-page-inner {
+    min-height: 600px;
+    background-color: #fff;
+	max-width: 1138px;
+	margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+.support-page-main .support-page-inner .support-page-content {
+    width: 788px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+.support-page-main h1 {
+    margin-bottom: 1em;
+}
+.support-page-main .tronsmart-warranty .page-title {
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: 400;
+    color: #32373b;
+    text-transform: uppercase;
+}
+.support-page-main .tronsmart-warranty table {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin: 1em 0 1.5em;
+}
+.support-page-main .tronsmart-warranty table th {
+    background: #e0e0e04d;
+    font-weight: 600;
+}
+.support-page-main .tronsmart-warranty table td, .support-page-main .tronsmart-warranty table th {
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 15px 20px;
+    line-height: 1.2;
+}
+.support-page-main .tronsmart-warranty h3 {
+    margin-top: 2em;
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: 400;
+    color: #32373b;
+    text-transform: uppercase;
+}
+.support-page-main .tronsmart-warranty ul {
+    padding: 30px 0 30px 15px;
+}
+.support-page-main .tronsmart-warranty ul.list-style-letter li {
+    list-style-type: lower-roman;
+    margin-top: 15px;
+}
+.support-page-main .tronsmart-warranty ul li {
+    padding-left: 30px;
+}
+
+.support-page-main .authorization {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.support-page-main .authorization h1 {
+    min-width: 154px;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    background: url(images/h1_bottom.png) center bottom no-repeat;
+}
+.support-page-main .authorization p {
+    background: url(images/tronsmart-certificate.jpg) center bottom no-repeat;
+    width: 512px;
+    height: 720px;
+    margin: 0 auto;
+}
+.shipping-policy h3 {
+    line-height: 18px;
+    font-size: 15px;
+    color: #707070;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.shipping-policy h1+p, .shipping-policy h2+p, .shipping-policy h3+p, .shipping-policy h4+p, .shipping-policy h5+p, .shipping-policy h6+p {
+    margin-top: .5em;
+}
+.shipping-policy p {
+    margin: 1em 0;
+}
+.shipping-policy ol+h3, .shipping-policy p+h3, .shipping-policy ul+h3 {
+    margin-top: 80px;
+}
+.shipping-policy strong {
+    font-weight: 600;
+}
+.shipping-policy p>a {
+    color: #382e83;
+}
+/*Customer Support Text Area End*/
+
+.help_main {
+	padding-top:2px;
+	margin-bottom:40px;
+}
+.help_left_h {
+	width: 221px;
+    float: left;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 10px;
+    background: #fff;
+    border-radius: 5px;
+}
+.help_left_h h2 {
+	margin-bottom: 12px;
+	padding-bottom: 1px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 20px;
+	text-indent: 60px;
+	background: #fff url(images/help.png) no-repeat 23px 22px;
+}
+.help_left_h .sideMenu{
+	padding: 0px 0 0px 0px;
+}
+.help_left_h .sideMenu h4{
+	padding: 15px 20px 15px;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 16px;
+    color: #666;
+    font-weight: bold;
+}
+.help_left_h .sideMenu h4.on{
+	border-bottom:0 none;
+	background: #fafafa;
+    border-left: 4px solid #ff4900;
+}
+.help_left_h .sideMenu h4.on a, .help_left_h .sideMenu a.sell{
+	color:#382e83;
+	font-weight: 600;
+}
+.help_left_h .menu_help{
+	margin-bottom:12px;
+	padding:0 16px;
+}
+.help_left_h .menu_help li{
+	font-size: 16px;
+    position: relative;
+    border-bottom: 1px solid #e6e9ed;
+    line-height: 50px;
+    height: 50px;
+    vertical-align: bottom;
+    padding: 3px 0;	
+}
+.help_left_h .menu_help a{
+	color: #757575;
+	font-size: 14px;	
+}
+#h_box h3 {
+	height: 32px;
+	line-height: 32px;
+	background: url(images/h_bj_01.png) repeat-x right 0;
+	font-size: 12px;
+	padding-left: 50px;
+	border-top: 1px solid #e4e4e4;
+	margin-top: 1px;
+	font-weight: bold;
+	cursor: pointer
+}
+#h_box h3.h3_all {
+	background-position: 0 -38px
+}
+#h_box h3 span {
+	display: none
+}
+#h_box ul {
+	display: none
+}
+#h_box ul li {
+	position: relative;
+	height: 32px;
+	line-height: 32px
+}
+#h_box a {
+	display: block;
+	height: 32px;
+	text-indent: 67px;
+	border-top: 1px solid #e4e4e4;
+	background: #FFF
+}
+#h_box .noline {
+	border: none
+}
+#h_box a:hover {
+	background: #efefef;
+	text-decoration: none
+}
+#h_box a.current, #h_box a.current:hover {
+	background: #f70;
+	color: #fff
+}
+.common_question {
+	border: 1px solid #e4e4e4;
+	background-color: #fff;
+	margin-top: 10px
+}
+.common_question h3 {
+	height: 32px;
+	line-height: 32px;
+	padding-left: 57px;
+	background: #f4f4f4;
+	border-bottom: 1px solid #e4e4e4;
+	font-size: 12px;
+	font-weight: bold
+}
+.common_question ul {
+	padding: 10px 20px
+}
+.common_question li {
+	height: 32px;
+	line-height: 32px;
+	text-indent: 12px;
+	border-bottom: 1px solid #e4e4e4
+}
+.help_left_h .tel {
+	margin-top: 12px;
+	background-color: #fff
+}
+.help_left_h .tel .tel_hot {
+	background: url(images/tel_bj_help.png) no-repeat 0 0;
+	height: 30px;
+	padding-top: 18px;
+	text-indent: 60px
+}
+.help_right {
+	width: 931px;
+    background-color: #fff;
+    float: right;
+    text-align: left;
+    margin-bottom: 5%;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    background: #fff;
+    margin-left: 20px;
+    padding: 25px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+}
+.help_right .help_content {
+	padding: 25px;
+	min-height: 300px;
+	font-size: 14px;
+	line-height: 25px;
+	overflow:hidden;
+}
+.help_right .help_content .article_page{
+	padding: 8px;
+	margin-top: 40px;
+	text-align: left;
+	border-top: 1px solid #CCC;
+}
+#wrapper .help_right h3.help_title {
+	font-size: 2em;
+    height: 75px;
+    line-height: 124px;
+    color: #333;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0px 6px 0px;
+}
+.help_right hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid #ccc;
+    margin: 17px 19px 0px;
+}
+#choice {
+	height: 70px;
+	width: 400px;
+	margin-top: 20px;
+	margin-left: 30px;
+	padding-bottom: 20px
+}
+#choice p {
+	color: #999;
+	margin-top: 10px
+}
+#choice li {
+	float: left
+}
+#choice li button {
+	width: 78px;
+	height: 28px;
+	background: #f1f1f1;
+	border: 1px solid #e4e4e4;
+	margin-top: 15px;
+	margin-right: 30px
+}
+#choice_yes, #choice_no {
+	display: none
+}
+#choice li button#choice_no_btn {
+	background: #fff
+}
+.help_right_content {
+	width: 918px;
+	float: right;
+	border: 1px solid #e4e4e4;
+	padding: 25px;
+	background-color: #fff
+}
+#h_box1, .help_right_content .help_banner {
+	display: none
+}
+#essay {
+	padding-bottom: 20px
+}
+#essay h3 {
+	font-size: 16px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 8px
+}
+#essay ul {
+	list-style: disc inside
+}
+#essay li {
+	float: left;
+	width: 400px;
+	height: 20px;
+	overflow: hidden;
+	margin-top: 10px;
+	font-size: 14px;
+	list-style: disc inside
+}
+#wrapper .help_right .box_1{
+	border:none;	
+}
+#wrapper .help_left_h #h_box h3 a{
+	background:none;
+	display:inline;
+	height:auto;
+	text-indent:auto;
+	border:none;
+}
+.form-control {
+    width: 20%;
+    height: 26px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.helpcen-title {
+    padding: 17px 0px 0px 13px;
+    margin: 0 0 0px 0px;
+    overflow: hidden;
+}
+.helpcen-title h1, .helpcen-title h2 {
+    color: #000;
+    font-family: ProximaNova,Arial,Sans-serif;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.xm-editable h1 {
+    font-size: 2em;
+    font-weight: 400;
+    margin: .67em 0;
+	color: #212121;
+    text-transform: uppercase;
+}
+.xm-editable p+h1, .xm-editable p+h2, .xm-editable p+h3 {
+    margin-top: 2em;
+}
+.xm-editable hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid #ccc;
+    margin: .5em 0;
+}
+.xm-editable h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: .83em 0;
+	color: #212121;
+    text-transform: uppercase;
+}
+.xm-editable ul>li {
+    list-style-type: disc !important;
+}
+.xm-editable .xm-editable-warranty p {
+    font-size: 95%;
+}
+.xm-editable .xm-editable-warranty ul>li {
+    font-size: 95%;
+}
+.xm-editable .xm-editable-warranty p>a {
+    color: #382e83;
+}
+a {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+#accessory-product-limited-warranty {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: .83em 0;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.xm-editable .xm-editable-warranty h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px 0;
+    color: #212121;
+    text-transform: uppercase;
+}
